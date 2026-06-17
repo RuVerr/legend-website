@@ -1,26 +1,97 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  min-width: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+svg,
+video,
+canvas {
+  display: block;
+
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+
+  background: none;
+
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("/Fonts/Montserrat/static/Montserrat-Light.ttf") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("/Fonts/Montserrat/static/Montserrat-Medium.ttf") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("/public/Fonts/Gotham.otf") format("woff2");
+  font-weight: 700;
+}
+
+.montserrat-l {
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.montserrat-m {
+  font-family: "Montserrat-Medium";
+}
+
+.montserrat-b {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
 }
