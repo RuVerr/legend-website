@@ -19,7 +19,7 @@ export default function MoleculesHeader() {
       <div className="w-full h-[1px] bg-[#B08D57] mx-auto my-4"></div>
       <div className="paragraphBox text-center flex justify-center">
         <AtomParagraph className="montserrat-m w-[320px]">
-          A place where taste becomes legend. Experience exquisite cuisine in an elegant atmosphere{" "}
+          Մի վայր, որտեղ համը դառնում է լեգենդ։ Բացահայտեք նրբաճաշակ խոհանոցն ու վայելեք էլեգանտ մթնոլորտը{" "}
         </AtomParagraph>
       </div>
       <div className="link_box flex justify-center pt-[33px]">
@@ -37,7 +37,7 @@ export default function MoleculesHeader() {
               className="inline-block mr-[5px]"
             />
           }
-          View Menu
+          Դիտել Մենյուն
         </AtomLinks>
       </div>
     </div>

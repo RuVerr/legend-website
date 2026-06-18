@@ -9,15 +9,15 @@ export default function MoleculesNavigation() {
   const pathname = usePathname();
 
   const links = [
-    { title: "Home", href: "/" },
-    { title: "Menu", href: "/menu" },
-    { title: "About us", href: "/about-us" },
-    { title: "Contacts", href: "/contacts" }
+    { title: "Գլխավոր", href: "/" },
+    { title: "Մենյու", href: "/menu" },
+    { title: "Մեր մասին", href: "/about-us" },
+    { title: "Կոնտակտներ", href: "/contacts" }
   ];
 
   return (
     <div className="container">
-      <AtomUl className="pt-[62px] pb-[28px]">
+      <AtomUl className="flex justify-center items-center gap-[78px] pt-[62px] pb-[28px]">
         {links.map((link, elIndex) => (
           <AtomLi key={elIndex}>
             <AtomLinks

@@ -8,8 +8,8 @@ export default function MoleculesBackground() {
 
   const backgroundImages = [
     { url: "/images/background/home-background.jpg", href: "/" },
-    { url: "/images/background/home-background.jpg", href: "/menu" },
-    { url: "/images/background/home-background.jpg", href: "/about-us" },
+    { url: "/images/background/menu-background1.jpg", href: "/menu" },
+    { url: "/images/background/about-us-background.jpg", href: "/about-us" },
     { url: "/images/background/home-background.jpg", href: "/contacts" }
   ];
 

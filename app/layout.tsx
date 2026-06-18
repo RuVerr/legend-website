@@ -9,10 +9,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={``}>
-      <body className="min-h-full flex flex-col">
-        <TemplateBackground />
+      <body className="">
         <TemplateNavigation />
         {children}
+        <TemplateBackground />
       </body>
     </html>
   );

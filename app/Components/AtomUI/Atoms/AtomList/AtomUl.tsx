@@ -6,5 +6,5 @@ interface AtomUlProp {
 }
 
 export default function AtomUl({ children, className = "" }: AtomUlProp) {
-  return <ul className={`flex justify-center items-center gap-[78px] ${className} max-sm:gap-[30px]`}>{children}</ul>;
+  return <ul className={`${className} max-sm:gap-[30px]`}>{children}</ul>;
 }
