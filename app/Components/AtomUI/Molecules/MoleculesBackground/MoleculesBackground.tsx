@@ -13,10 +13,10 @@ export default function MoleculesBackground() {
     { url: "/images/background/about-us-background.jpg", href: "/about-us" }
   ];
 
-  const currentBackground = backgroundImages.find((image) => (pathname === image.href ? image.url : null));
+  const currentBackground = backgroundImages.find((image) => pathname === image.href) ?? backgroundImages[0];
   return (
     <>
-      <AtomBackground backgroundSRC={currentBackground!.url} />
+      <AtomBackground backgroundSRC={currentBackground.url} />
     </>
   );
 }

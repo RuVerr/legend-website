@@ -10,8 +10,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={``}>
       <body className="">
-        <TemplateNavigation />
-        <TemplateBackground />
+        {/* <TemplateNavigation /> */}
+        {/* <TemplateBackground /> */}
         {children}
       </body>
     </html>
