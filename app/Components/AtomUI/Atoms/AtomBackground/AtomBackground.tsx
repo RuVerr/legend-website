@@ -6,6 +6,7 @@ interface AtomBackgroundProp {
 }
 
 export default function AtomBackground({ backgroundSRC }: AtomBackgroundProp) {
+  if (!backgroundSRC) return null;
   return (
     <div className="fixed top-0 z-[-1] w-full h-screen overflow-hidden ">
       <Image
