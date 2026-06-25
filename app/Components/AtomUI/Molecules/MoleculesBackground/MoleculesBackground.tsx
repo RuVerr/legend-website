@@ -8,9 +8,9 @@ export default function MoleculesBackground() {
 
   const backgroundImages = [
     { url: "/images/background/home-background.jpg", href: "/" },
-    { url: "/images/background/menu-background1.jpg", href: "/menu" },
-    { url: "/images/background/about-us-background.jpg", href: "/about-us" },
-    { url: "/images/background/home-background.jpg", href: "/contacts" }
+    { url: "/images/background/menu-background.jpg", href: "/menu" },
+    { url: "/images/background/menu-background.jpg", href: "/legend-cafe-menu" },
+    { url: "/images/background/about-us-background.jpg", href: "/about-us" }
   ];
 
   const currentBackground = backgroundImages.find((image) => (pathname === image.href ? image.url : null));

@@ -11,8 +11,8 @@ export default function RootLayout({
     <html lang="en" className={``}>
       <body className="">
         <TemplateNavigation />
-        {children}
         <TemplateBackground />
+        {children}
       </body>
     </html>
   );

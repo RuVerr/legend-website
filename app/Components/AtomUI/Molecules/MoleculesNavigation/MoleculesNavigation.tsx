@@ -10,9 +10,8 @@ export default function MoleculesNavigation() {
 
   const links = [
     { title: "Գլխավոր", href: "/" },
-    { title: "Մենյու", href: "/menu" },
+    // { title: "Մենյու", href: "/menu" },
     { title: "Մեր մասին", href: "/about-us" },
-    { title: "Կոնտակտներ", href: "/contacts" }
   ];
 
   return (

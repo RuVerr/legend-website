@@ -51,11 +51,11 @@ export default function MoleculesContacts() {
         ))}
       </div>
 
-      <div className="social flex justify-center gap-2 border-t border-[#b08d57] pt-[45px] max-[1151px]:pt-[20px]">
+      <div className="social flex justify-center gap-2 pt-[45px] max-[1151px]:pt-[20px]">
         {social.map((soc, socIndex) => (
           <AtomLinks
             key={socIndex}
-            value=""
+            value="NextLink"
             blank={true}
             href={soc.href}
             className="flex gap-2 items-center text-black"

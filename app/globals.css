@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+*{
+  outline: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -26,19 +29,10 @@ canvas {
   max-width: 100%;
 }
 
-button,
 input,
 textarea,
 select {
   font: inherit;
-}
-
-button {
-  cursor: pointer;
-
-  background: none;
-
-  border: none;
 }
 
 a {
