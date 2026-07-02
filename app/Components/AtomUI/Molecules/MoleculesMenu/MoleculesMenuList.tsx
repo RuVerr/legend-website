@@ -1,3 +1,4 @@
+"use client"
 import React, { RefObject, useRef } from "react";
 import AtomUl from "../../Atoms/AtomList/AtomUl";
 import AtomLi from "../../Atoms/AtomList/AtomLi";
@@ -7,7 +8,7 @@ interface MenuItem {
   itemName: string;
   rusItem?: string;
   engItem?: string;
-  price: string;
+  price?: string;
 }
 
 interface MenuCategory {
@@ -17,8 +18,8 @@ interface MenuCategory {
 
 interface MoleculesMenuListProps {
   menuInfo: MenuCategory[];
-  moleculesUl: RefObject<HTMLUListElement | null>;
-  moleculesMenuListContent: RefObject<HTMLDivElement | null>;
+  moleculesUl?: RefObject<HTMLUListElement | null>;
+  moleculesMenuListContent?: RefObject<HTMLDivElement | null>;
 }
 
 export default function MoleculesMenuList({ menuInfo, moleculesUl, moleculesMenuListContent }: MoleculesMenuListProps) {
