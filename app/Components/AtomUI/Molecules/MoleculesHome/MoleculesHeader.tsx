@@ -1,28 +1,52 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { RefObject } from "react";
 import AtomHeading from "../../Atoms/AtomTypography/AtomHeading";
 import AtomParagraph from "../../Atoms/AtomTypography/AtomParagraph";
 import AtomLinks from "../../Atoms/AtomActions/AtomLinks";
 import Image from "next/image";
 
-export default function MoleculesHeader() {
+interface MoleculesHeaderProp {
+  moleculesHeading: RefObject<HTMLHeadingElement | null>;
+  moleculesLine: RefObject<HTMLSpanElement | null>;
+  moleculesParagraph: RefObject<HTMLParagraphElement | null>;
+  moleculesLinks: RefObject<HTMLDivElement | null>;
+}
+
+export default function MoleculesHeader({
+  moleculesHeading,
+  moleculesLine,
+  moleculesParagraph,
+  moleculesLinks
+}: MoleculesHeaderProp) {
   const restAndCafeImgURL = ["/images/icons/menu-icon.svg", "/images/icons/cafe-menu.svg"];
+  const headingTitle = "Legend";
+  const paragraph = "Մի վայր, որտեղ համը դառնում է լեգենդ։ Բացահայտեք նրբաճաշակ խոհանոցն ու վայելեք էլեգանտ մթնոլորտը";
+
   return (
     <div className="header_and_paragraph">
       <AtomHeading
+        atomHeadingRef={moleculesHeading}
         level="h1"
         className=" tracking-widest text-center uppercase text-[#07261C] text-[150px] montserrat-b max-[724px]:text-[100px] max-[490px]:text-[70px] max-[338px]:text-[50px]"
       >
-        Legend
+        {headingTitle.split("").map((letter, letterIndex) => (
+          <span key={letterIndex} className="inline-block">
+            {letter}
+          </span>
+        ))}
       </AtomHeading>
-      <span className="block w-full h-[1px] bg-[#B08D57] mx-auto my-4"></span>
+      <span ref={moleculesLine} className="block w-full h-[1px] bg-[#B08D57] mx-auto my-4"></span>
       <div className="paragraphBox text-center flex justify-center">
-        <AtomParagraph className="montserrat-m w-[320px]">
-          Մի վայր, որտեղ համը դառնում է լեգենդ։ Բացահայտեք նրբաճաշակ խոհանոցն ու վայելեք էլեգանտ մթնոլորտը{" "}
+        <AtomParagraph paragraphRef={moleculesParagraph} className="montserrat-m w-[320px]">
+          {paragraph.split(" ").map((word) => (
+            <span key={word} className="inline-block mr-[3px]">
+              {word}
+            </span>
+          ))}
         </AtomParagraph>
       </div>
-      <div className="link_box flex flex-col gap-3 justify-center items-center pt-[33px]">
+      <div ref={moleculesLinks} className="link_box flex flex-col gap-3 justify-center items-center pt-[33px]">
         {["Music Hall մենյու", "Legend cafe մենյու"].map((el, elIndex) => (
           <AtomLinks
             key={elIndex}

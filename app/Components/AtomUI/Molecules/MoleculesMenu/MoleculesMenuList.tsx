@@ -1,8 +1,7 @@
-import React from "react";
+import React, { RefObject, useRef } from "react";
 import AtomUl from "../../Atoms/AtomList/AtomUl";
 import AtomLi from "../../Atoms/AtomList/AtomLi";
 import AtomHeading from "../../Atoms/AtomTypography/AtomHeading";
-import { DropArgument } from "net";
 
 interface MenuItem {
   itemName: string;
@@ -18,9 +17,11 @@ interface MenuCategory {
 
 interface MoleculesMenuListProps {
   menuInfo: MenuCategory[];
+  moleculesUl: RefObject<HTMLUListElement | null>;
+  moleculesMenuListContent: RefObject<HTMLDivElement | null>;
 }
 
-export default function MoleculesMenuList({ menuInfo }: MoleculesMenuListProps) {
+export default function MoleculesMenuList({ menuInfo, moleculesUl, moleculesMenuListContent }: MoleculesMenuListProps) {
   // const menuInfo = [
   //   {
   //     mainTitle: "Սառը ուտեստներ",
@@ -324,19 +325,25 @@ export default function MoleculesMenuList({ menuInfo }: MoleculesMenuListProps) 
   //   }
   // ];
   return (
-    <AtomUl className="flex flex-col items-center pt-[40px] bg-black-20 backdrop-blur-[5px] rounded-3xl">
+    <AtomUl
+      atomUlRef={moleculesUl}
+      className="flex flex-col items-center pt-[40px] bg-black-20 backdrop-blur-[5px] rounded-3xl pb-[100px]"
+    >
       {menuInfo.map((category, catIndex) => (
-        <div key={catIndex} className="menu_list_content w-[80%]">
+        // <div key={catIndex} className="menu_list_content w-[80%]">
+
+        <React.Fragment key={catIndex}>
           <AtomHeading
             level="h3"
-            className="montserrat-m text-[#5a421f] text-[26px] py-[10px] my-[20px] uppercase text-center"
+            className="montserrat-m w-[80%] text-[#5a421f] text-[26px] py-[10px] my-[20px] uppercase text-center"
           >
             {category.mainTitle}
           </AtomHeading>
           {category.items.map((item, itemIndex) => (
             <div
+              ref={moleculesMenuListContent}
               key={itemIndex}
-              className="w-full flex min-[620px]:justify-between items-center max-[620px]:justify-between border-t-1 border-[#866a3f] last:border-b-1 border-[#866a3f]"
+              className="w-[80%] flex min-[620px]:justify-between items-center max-[620px]:justify-between border-t-1 border-[#866a3f] last:border-b-1 border-[#866a3f]"
             >
               <AtomLi key={itemIndex} className="montserrat-b text-[#6f5229] py-[10px] text-[20px]">
                 {item.itemName}
@@ -347,7 +354,7 @@ export default function MoleculesMenuList({ menuInfo }: MoleculesMenuListProps) 
               <span className="montserrat-b text-[20px] text-[#6f5229]">{item.price}</span>
             </div>
           ))}
-        </div>
+        </React.Fragment>
       ))}
     </AtomUl>
   );

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { RefObject } from "react";
 
 import Link from "next/link";
 
@@ -7,15 +7,16 @@ interface LinkProp {
   value: string;
   children: React.ReactNode;
   href: string;
+  linkRef?: RefObject<HTMLAnchorElement | null>;
   blank?: boolean;
   className?: string;
 }
 
-export default function AtomLinks({ value, children, href, blank = false, className = "" }: LinkProp) {
+export default function AtomLinks({ value, children, href, blank = false, linkRef, className = "" }: LinkProp) {
   switch (value) {
     case "NextLink":
       return (
-        <Link className={`cursor-pointer ${className}`} href={href}>
+        <Link ref={linkRef} className={`cursor-pointer ${className}`} href={href}>
           {children}
         </Link>
       );

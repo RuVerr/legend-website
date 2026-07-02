@@ -1,9 +1,14 @@
-import React from "react";
+import React, { RefObject } from "react";
 
 interface AtomParagraphProp {
   children: React.ReactNode;
-  className: string;
+  paragraphRef?: RefObject<HTMLParagraphElement | null>;
+  className?: string;
 }
-export default function AtomParagraph({ children, className = "" }: AtomParagraphProp) {
-  return <p className={`${className}`}>{children}</p>;
+export default function AtomParagraph({ children, paragraphRef, className = "" }: AtomParagraphProp) {
+  return (
+    <p ref={paragraphRef} className={`${className}`}>
+      {children}
+    </p>
+  );
 }

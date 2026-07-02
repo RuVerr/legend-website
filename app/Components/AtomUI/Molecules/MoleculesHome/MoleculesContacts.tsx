@@ -1,8 +1,13 @@
-import React from "react";
+import React, { RefObject } from "react";
 import AtomLinks from "../../Atoms/AtomActions/AtomLinks";
 import Image from "next/image";
 
-export default function MoleculesContacts() {
+interface MoleculesContactsProp {
+  moleculesContacts: RefObject<HTMLDivElement | null>;
+  moleculesSoc: RefObject<HTMLDivElement | null>;
+}
+
+export default function MoleculesContacts({ moleculesContacts, moleculesSoc }: MoleculesContactsProp) {
   const contactsInfo = [
     {
       href: "https://www.google.com/maps/place/Legend+Music+Hall/@40.1791684,44.5170794,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd541c1b0951:0x492b9cc47239d253!8m2!3d40.1791684!4d44.5170794!16s%2Fg%2F11ykk16c43?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
@@ -27,7 +32,10 @@ export default function MoleculesContacts() {
   ];
   return (
     <div className="contacts">
-      <div className="contacts_content flex flex-col gap-5 min-[1151px]:w-[200px] max-[1151px]:flex-row justify-center pb-[10px] w-full max-[620px]:flex-col">
+      <div
+        ref={moleculesContacts}
+        className="contacts_content flex flex-col gap-5 min-[1151px]:w-[200px] max-[1151px]:flex-row justify-center pb-[10px] w-full max-[620px]:flex-col"
+      >
         {contactsInfo.map((contact) => (
           <div key={contact.href}>
             <AtomLinks
@@ -51,7 +59,7 @@ export default function MoleculesContacts() {
         ))}
       </div>
 
-      <div className="social flex justify-center gap-2 pt-[45px] max-[1151px]:pt-[20px]">
+      <div ref={moleculesSoc} className="social flex justify-center gap-2 pt-[45px] max-[1151px]:pt-[20px]">
         {social.map((soc, socIndex) => (
           <AtomLinks
             key={socIndex}
