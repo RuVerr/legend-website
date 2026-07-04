@@ -120,7 +120,7 @@ export default function MoleculesHomeOurSpaceCard() {
         {cardData.map((card, cardIndex) => (
           <div
             key={cardIndex}
-            className="relative w-[400px] pb-[20px] overflow-hidden bg-[#E5D7CE] border border-[#946326] rounded-3xl shadow-2xl max-[404px]:w-full"
+            className="relative w-[400px] min-h-[500px] pb-[20px] overflow-hidden bg-[#E5D7CE] border border-[#946326] rounded-3xl shadow-2xl max-[404px]:w-full"
           >
             <div className="card_button w-full h-[200px] flex justify-between items-center absolute z-50">
               <button

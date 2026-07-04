@@ -9,6 +9,8 @@ export default function MoleculesHomeOurSpace() {
         <AtomHeading level="h2" className="montserrat-m text-[24px] text-[#946326] uppercase max-[546px]:text-[18px]">
           Our Space
         </AtomHeading>
+        <span className=" scale-[0.9] block border-t border-[#946326] my-[10px]" />
+
         <AtomHeading
           level="h3"
           className=" montserrat-b text-[56px] tracking-[6px] uppercase max-[788px]:text-[46px] max-[666px]:text-[36px] tracking-[2px] "

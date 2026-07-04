@@ -73,7 +73,11 @@ export default function OrganismHome() {
             moleculesParagraph={paragraphRef}
             moleculesLinks={linksRef}
           />
-          <MoleculesContacts moleculesContacts={moleculesContactsRef} moleculesSoc={moleculesSocRef} />
+          <MoleculesContacts
+            moleculesContacts={moleculesContactsRef}
+            moleculesSoc={moleculesSocRef}
+            contactsContentClassName="flex flex-col gap-5 min-[1151px]:w-[200px] max-[1151px]:flex-row justify-center pb-[10px] w-full max-[620px]:flex-col"
+          />
         </div>
       </div>
     </>

@@ -1,6 +1,7 @@
 import "./globals.css";
 import TemplateNavigation from "./Components/AtomUI/Template/TemplateNavigation";
 import TemplateBackground from "./Components/AtomUI/Template/TemplateBackground";
+import TemplateFooter from "./Components/AtomUI/Template/TemplateFooter";
 
 export default function RootLayout({
   children
@@ -13,6 +14,7 @@ export default function RootLayout({
         <TemplateNavigation />
         <TemplateBackground />
         {children}
+        <TemplateFooter />
       </body>
     </html>
   );
