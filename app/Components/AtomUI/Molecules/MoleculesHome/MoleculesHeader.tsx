@@ -28,7 +28,7 @@ export default function MoleculesHeader({
       <AtomHeading
         atomHeadingRef={moleculesHeading}
         level="h1"
-        className=" tracking-widest text-center uppercase text-[#07261C] text-[150px] montserrat-b max-[724px]:text-[100px] max-[490px]:text-[70px] max-[338px]:text-[50px]"
+        className=" tracking-widest text-center uppercase text-[#07261C] text-[150px] montserrat-b max-[756px]:text-[100px] max-[517px]:text-[70px] max-[374px]:text-[50px]"
       >
         {headingTitle.split("").map((letter, letterIndex) => (
           <span key={letterIndex} className="inline-block">
@@ -52,7 +52,7 @@ export default function MoleculesHeader({
             key={elIndex}
             value="NextLink"
             href={`${elIndex === 0 ? "/menu" : "/legend-cafe-menu"}`}
-            className="montserrat-m w-[50%] flex justify-center gap-1 z-50 px-[33px] py-[16px] rounded-2xl border-1 border-[#CA9E57] bg-[#0D2C22] text-amber-50 uppercase cursor-pointer hover:text-[#0D2C22] hover:bg-amber-50 transition-colors duration-100 max-[724px]:w-full"
+            className="montserrat-m w-[50%] whitespace-nowrap flex justify-center gap-1 z-50 px-[33px] py-[16px] rounded-2xl border-1 border-[#CA9E57] bg-[#0D2C22] text-amber-50 uppercase cursor-pointer hover:text-[#0D2C22] hover:bg-amber-50 transition-colors duration-100 max-[724px]:w-full"
           >
             {
               <Image
