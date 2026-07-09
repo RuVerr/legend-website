@@ -5,27 +5,31 @@ import AtomLi from "../../Atoms/AtomList/AtomLi";
 import AtomLinks from "../../Atoms/AtomActions/AtomLinks";
 import { usePathname } from "next/navigation";
 
-export default function MoleculesNavigation() {
+interface MoleculesNavigationProp{
+  className: string 
+}
+
+export default function MoleculesNavigation({ className }: MoleculesNavigationProp) {
   const pathname = usePathname();
 
   const links = [
     { title: "Գլխավոր", href: "/" },
-    // { title: "Մենյու", href: "/menu" },
-    { title: "Մեր մասին", href: "/about-us" },
+    { title: "Փաթեթներ", href: "/banquet" },
+    { title: "Մեր մասին", href: "/about-us" }
   ];
 
   return (
     <div className="container">
-      <AtomUl className="flex justify-center items-center gap-[78px] pt-[62px] pb-[28px]">
+      <AtomUl className={`${className}`}>
         {links.map((link, elIndex) => (
           <AtomLi key={elIndex}>
             <AtomLinks
               className={`relative text-[20px] uppercase transition-colors py-[20px] montserrat-m duration-200
               ${`-----// afters -------`}
               after:content-['']
-              after:h-[2px]
+              after:h-[1px]
               after:absolute 
-              after:bottom-[-28px] 
+              after:bottom-[-1px]
               after:left-0 
               after:h-[2px] 
             after:bg-[#78460C] 

@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-*{
+* {
   outline: 0;
 }
 html {
@@ -53,6 +53,7 @@ table {
 .container {
   max-width: 1150px;
   margin: auto;
+  padding: 0 20px;
 }
 
 @font-face {

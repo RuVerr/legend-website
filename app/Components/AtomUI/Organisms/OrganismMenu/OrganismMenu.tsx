@@ -18,10 +18,6 @@ export default function OrganismMenu() {
     const ul = moleculesUlRef.current;
     const listContent = moleculesMenuListContentRef.current;
 
-    console.log(ul.offsetHeight);
-
-    console.log(listContent);
-
     const ctx = gsap.context(() => {
       const masterTl = gsap.timeline({
         defaults: { scrollTrigger: { start: "top center", scrub: 1.1 } }

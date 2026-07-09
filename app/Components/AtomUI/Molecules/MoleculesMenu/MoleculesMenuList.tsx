@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { RefObject } from "react";
 import AtomUl from "../../Atoms/AtomList/AtomUl";
 import AtomLi from "../../Atoms/AtomList/AtomLi";
@@ -348,7 +348,6 @@ export default function MoleculesMenuList({ menuInfo, moleculesUl, moleculesMenu
             >
               <AtomLi key={itemIndex} className="montserrat-b text-[#6f5229] py-[10px] text-[20px]">
                 {item.itemName}
-
                 <span className="montserrat-b block text-[#6f5229]">{item?.rusItem}</span>
                 <span className="montserrat-b block text-[#6f5229]">{item?.engItem}</span>
               </AtomLi>

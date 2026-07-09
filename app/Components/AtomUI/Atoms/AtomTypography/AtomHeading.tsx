@@ -1,6 +1,6 @@
 import React, { Ref, RefObject } from "react";
 
-type headAtomHeadingType = "h1" | "h2" | "h3";
+type headAtomHeadingType = "h1" | "h2" | "h3" | "h4";
 
 interface AtomHeadingProp {
   level: headAtomHeadingType;

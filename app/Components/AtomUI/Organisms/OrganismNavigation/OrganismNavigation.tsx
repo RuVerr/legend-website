@@ -4,7 +4,7 @@ import MoleculesNavigation from "../../Molecules/MoleculesNavigation/MoleculesNa
 export default function OrganismNavigation() {
   return (
     <>
-      <MoleculesNavigation />
+      <MoleculesNavigation className="flex justify-center items-center gap-[78px] pt-[62px] pb-[28px] max-[620px]:hidden" />
     </>
   );
 }
