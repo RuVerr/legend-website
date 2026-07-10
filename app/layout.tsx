@@ -6,7 +6,7 @@ import TemplateBackground from "./Components/AtomUI/Template/TemplateBackground"
 import TemplateFooter from "./Components/AtomUI/Template/TemplateFooter";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://legend.am"), // замени на свой домен
+  metadataBase: new URL("https://legend.am"),
 
   title: {
     default: "Legend Music Hall | Restaurant & Live Music in Yerevan",
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     description: "Enjoy exceptional food, live music, and unforgettable evenings at Legend Music Hall.",
     url: "https://legend.am",
     siteName: "Legend Music Hall",
-    locale: "en_US",
+    locale: "hy_AM",
     type: "website",
     images: [
       {
-        url: "./images/icons/favicon.png",
+        url: "/images/icons/favicon.png",
         width: 1200,
         height: 630,
         alt: "Legend Music Hall"
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Legend Music Hall",
     description: "Restaurant, live music, cocktails, and unforgettable evenings in Yerevan.",
-    images: ["./images/icons/favicon.png"]
+    images: ["/images/icons/favicon.png"]
   },
 
   robots: {
@@ -63,8 +63,14 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "./images/icons/favicon.png",
-    apple: "/apple-touch-icon.png"
+    icon: [
+      {
+        url: "/images/icons/favicon.png",
+        type: "image/png"
+      }
+    ],
+
+    apple: "/images/icons/favicon.png"
   }
 };
 
@@ -74,7 +80,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="hy">
       <body>
         <TemplateNavigation />
         <TemplateBackground />
