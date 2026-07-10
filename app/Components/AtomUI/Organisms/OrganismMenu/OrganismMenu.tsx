@@ -16,14 +16,14 @@ export default function OrganismMenu() {
     if (!moleculesUlRef.current || !moleculesMenuListContentRef.current) return;
 
     const ul = moleculesUlRef.current;
-    const listContent = moleculesMenuListContentRef.current;
+    const listHeight = ul.offsetHeight;
 
     const ctx = gsap.context(() => {
       const masterTl = gsap.timeline({
-        defaults: { scrollTrigger: { start: "top center", scrub: 1.1 } }
+        scrollTrigger: { start: "top bottom", end: () => "+" + (listHeight + -500), scrub: 1.1 }
       });
 
-      masterTl.from(ul.children, { scale: 0.1, opacity: 0, duration: 2, stagger: 0.3 });
+      masterTl.from(ul.children, { scale: 0.1, opacity: 0, duration: 1, stagger: 0.1 });
     });
 
     return () => ctx.revert();
