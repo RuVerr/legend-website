@@ -16,7 +16,7 @@ export default function MoleculesContacts({ moleculesContacts, moleculesSoc, con
       title: "48/1 Nalbandyan St, Yerevan"
     },
     {
-      href: "tel:+37412345678",
+      href: "+37441707010",
       icon: "/images/icons/phone.svg",
       title: `041 707010`
     },
