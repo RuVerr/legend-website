@@ -66,7 +66,7 @@ export default function OrganismHome() {
     <>
       <MoleculesBackground />
       <div className="container bg-red">
-        <div className="home_content py-[20px] flex justify-end items-center gap-5 h-[100dvh] max-[1151px]:flex-col justify-center max-[620px]:pt-[800px] max-[442px]:pt-[750px]">
+        <div className="home_content py-[20px] flex justify-end items-center gap-5 h-[100dvh] max-[1151px]:flex-col justify-center max-[620px]:pt-[800px] max-[442px]:pt-[850px]">
           <MoleculesHeader
             moleculesHeading={headingRef}
             moleculesLine={lineRef}
