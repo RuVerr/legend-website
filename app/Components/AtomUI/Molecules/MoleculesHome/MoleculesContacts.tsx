@@ -23,12 +23,12 @@ export default function MoleculesContacts({ moleculesContacts, moleculesSoc, con
     {
       href: "#",
       icon: "/images/icons/time.svg",
-      title: `Legend Cafe - 09:00 - 02:00`
+      title: `Legend Cafe-09:00 - 02:00`
     },
     {
       href: "#",
       icon: "/images/icons/time.svg",
-      title: `Music Hall - 21:00 - 05:00`
+      title: `Music Hall-21:00 - 05:00`
     }
   ];
 
