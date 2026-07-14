@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -53,7 +52,7 @@ table {
 .container {
   max-width: 1150px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 @font-face {
