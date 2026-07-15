@@ -55,25 +55,5 @@ export default function MoleculesBanquetList({ menuInfo }: MoleculesBanquetListP
         </div>
       ))}
     </>
-
-    // <AtomUl>
-    //   {banquetInfo.map((el) => (
-    //     <AtomHeading level="h2">{el.mainTitle}</AtomHeading>
-    //   ))}
-    //   {banquetInfo.map((item, itemIndex) => (
-    //     <AtomLi key={itemIndex}>
-    //       {item.items.map((item) => (
-    //         <AtomHeading level="h3">{item.itemTitle}</AtomHeading>
-    //       ))}
-
-    //       {item.items.map((subItem, subIndex) => (
-    //         <AtomParagraph key={subIndex}>{subItem.subItems}</AtomParagraph>
-    //       ))}
-
-    //       {/* {item.items..map((subItem, subIndex) => (
-    //       ))} */}
-    //     </AtomLi>
-    //   ))}
-    // </AtomUl>
   );
 }

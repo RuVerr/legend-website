@@ -4,6 +4,7 @@ import AtomUl from "../../Atoms/AtomList/AtomUl";
 import AtomLi from "../../Atoms/AtomList/AtomLi";
 import AtomLinks from "../../Atoms/AtomActions/AtomLinks";
 import { usePathname } from "next/navigation";
+import { useLanguage } from "@/app/context/useLanguage";
 
 interface MoleculesNavigationProp {
   className: string;
@@ -12,11 +13,12 @@ interface MoleculesNavigationProp {
 
 export default function MoleculesNavigation({ className, navigationContentRef }: MoleculesNavigationProp) {
   const pathname = usePathname();
+  const { t, language, setLanguage } = useLanguage();
 
   const links = [
-    { title: "Գլխավոր", href: "/" },
-    { title: "Փաթեթներ", href: "/banquet" },
-    { title: "Մեր մասին", href: "/about-us" }
+    { title: t.navigation.home, href: "/" },
+    { title: t.navigation.package, href: "/banquet" },
+    { title: t.navigation.aboutUse, href: "/about-us" }
   ];
 
   return (
@@ -45,6 +47,9 @@ export default function MoleculesNavigation({ className, navigationContentRef }:
               />
             </AtomLi>
           ))}
+          <button onClick={() => setLanguage("en")}>en</button>
+          {/* <button>am</button> */}
+          <button onClick={() => setLanguage("ru")}>ru</button>
         </AtomUl>
       </div>
     </div>

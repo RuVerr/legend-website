@@ -29,8 +29,6 @@ export default function MoleculesMenuList({ menuInfo, moleculesUl, moleculesMenu
       className="flex flex-col gap-5 items-center pt-[40px] bg-black-20 backdrop-blur-[5px] rounded-3xl pb-[100px]"
     >
       {menuInfo.map((category, catIndex) => (
-        // <div key={catIndex} className="menu_list_content w-[80%]">
-
         <React.Fragment key={catIndex}>
           <AtomHeading
             level="h3"

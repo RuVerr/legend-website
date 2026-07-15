@@ -4,6 +4,7 @@ import "./globals.css";
 import TemplateNavigation from "./Components/AtomUI/Template/TemplateNavigation";
 import TemplateBackground from "./Components/AtomUI/Template/TemplateBackground";
 import TemplateFooter from "./Components/AtomUI/Template/TemplateFooter";
+import LanguageProvider from "./context/LanguageProvider";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://legend.am"),
@@ -82,10 +83,12 @@ export default function RootLayout({
   return (
     <html lang="hy">
       <body>
-        <TemplateNavigation />
-        <TemplateBackground />
-        {children}
-        <TemplateFooter />
+        <LanguageProvider>
+          <TemplateNavigation />
+          <TemplateBackground />
+          {children}
+          <TemplateFooter />
+        </LanguageProvider>
       </body>
     </html>
   );

@@ -12,54 +12,56 @@ interface CardImage {
 
 interface CardCategory {
   title: string;
-
+  paragraph: string;
+  icon: string;
   cardImage: CardImage[];
 }
 
 interface MoleculesHomeOurSpaceCardProps {
-  cardCategory: CardCategory[];
+  cardData: CardCategory[];
 }
 
 export default function MoleculesHomeOurSpaceCard() {
+  
   const cardData = [
     {
+      cardImage: [
+        { image: "/images/background/about-us-background.jpg" },
+        { image: "/images/background/home-background.jpg" },
+        { image: "/images/background/menu-background.jpg" },
+        { image: "/images/background/menu-background1.jpg" }
+      ],
       title: "Գլխավոր սրահ",
       paragraph: "Ընդարձակ և ոճային՝ կատարյալ ցանկացած առիթի համար",
-      icon: "/images/icons/chairs.svg",
+      icon: "/images/icons/chairs.svg"
+    },
+    {
       cardImage: [
         { image: "/images/background/about-us-background.jpg" },
         { image: "/images/background/home-background.jpg" },
         { image: "/images/background/menu-background.jpg" },
         { image: "/images/background/menu-background1.jpg" }
-      ]
-    },
-    {
+      ],
       title: "Հանգստի գոտի",
       paragraph: "Հարմարավետ և հանգիստ միջավայր՝ հանգստանալու և հաճելի ժամանակ անցկացնելու համար",
-      icon: "/images/icons/sofa.svg",
-      cardImage: [
-        { image: "/images/background/about-us-background.jpg" },
-        { image: "/images/background/home-background.jpg" },
-        { image: "/images/background/menu-background.jpg" },
-        { image: "/images/background/menu-background1.jpg" }
-      ]
+      icon: "/images/icons/sofa.svg"
     },
     {
-      title: "VIP սրահ",
-      paragraph: "Բացառիկ և առանձնահատուկ մթնոլորտ՝ իդեալական VIP միջոցառումների և հանդիպումների համար",
-      icon: "/images/icons/vip.svg",
       cardImage: [
         { image: "/images/background/about-us-background.jpg" },
         { image: "/images/background/home-background.jpg" },
         { image: "/images/background/menu-background.jpg" },
         { image: "/images/background/menu-background1.jpg" }
-      ]
+      ],
+      title: "VIP սրահ",
+      paragraph: "Բացառիկ և առանձնահատուկ մթնոլորտ՝ իդեալական VIP միջոցառումների և հանդիպումների համար",
+      icon: "/images/icons/vip.svg"
     }
   ];
   const [slideCurrent, setSlideCurrent] = useState(cardData.map(() => 0));
   const cardTrackRef = useRef<HTMLDivElement[]>([]);
   const intervalRef = useRef<(NodeJS.Timeout | null)[]>([]);
-
+  
   const totalCard = cardData[0].cardImage.length;
 
   function startAutoSlide(cardIndex: number) {
@@ -116,7 +118,7 @@ export default function MoleculesHomeOurSpaceCard() {
   }, []);
   return (
     <>
-      <div className="our_space_card flex gap-6 max-[1156px]:gap-2 max-[900px]:flex-col items-center mx-[10px]">
+      <div className="our_space_card flex gap-6 max-[1156px]:gap-6 max-[900px]:flex-col items-center mx-[10px]">
         {cardData.map((card, cardIndex) => (
           <div
             key={cardIndex}
