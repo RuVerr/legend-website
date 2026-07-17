@@ -40,7 +40,7 @@ export default function MoleculesContacts({ moleculesContacts, moleculesSoc, con
     <div className="contacts">
       <div ref={moleculesContacts} className={`contacts_content ${contactsContentClassName}`}>
         {contactsInfo.map((contact) => (
-          <div key={contact.href}>
+          <div key={contact.title}>
             <AtomLinks
               value=""
               blank={contact.title === "48/1 Nalbandyan St, Yerevan" ? true : false}

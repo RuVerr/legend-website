@@ -12,15 +12,17 @@ const OrganismHome = dynamic(() => import("../Organisms/OrganismHome/OrganismHom
 export default function TemplateHome() {
   return (
     <main>
-      <section className="homeHeader">
-        <OrganismHome />
-      </section>
-      <section className="our_space">
-        <OrganismOurSpace />
-      </section>
-      <section>
-        <OrganismBanquetPackages />
-      </section>
+      <div className="home_content py-[100px]">
+        <section className="homeHeader">
+          <OrganismHome />
+        </section>
+        <section className="our_space">
+          <OrganismOurSpace />
+        </section>
+        <section>
+          <OrganismBanquetPackages />
+        </section>
+      </div>
     </main>
   );
 }
