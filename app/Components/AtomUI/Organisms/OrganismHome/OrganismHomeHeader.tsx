@@ -65,20 +65,21 @@ export default function OrganismHome() {
   return (
     <>
       <MoleculesBackground />
-      <div className="container">
-        <div className="home_content py-[20px] flex justify-center items-center gap-5 h-screen max-[1151px]:flex-col justify-center">
-          <MoleculesHeader
-            moleculesHeading={headingRef}
-            moleculesLine={lineRef}
-            moleculesParagraph={paragraphRef}
-            moleculesLinks={linksRef}
-          />
-          <MoleculesContacts
-            moleculesContacts={moleculesContactsRef}
-            moleculesSoc={moleculesSocRef}
-            contactsContentClassName="flex flex-col gap-5 min-[1151px]:w-[200px] max-[1151px]:flex-row justify-center pb-[10px] w-full max-[620px]:flex-col"
-          />
-        </div>
+      <div className="header_content flex-1 py-[20px] flex min-[1156px]:justify-center items-center gap-[10px] max-[1156px]:flex-col">
+        <div className="reserve w-[200px]" />
+
+        <MoleculesHeader
+          moleculesHeading={headingRef}
+          moleculesLine={lineRef}
+          moleculesParagraph={paragraphRef}
+          moleculesLinks={linksRef}
+        />
+
+        <MoleculesContacts
+          moleculesContacts={moleculesContactsRef}
+          moleculesSoc={moleculesSocRef}
+          contactsContentClassName="flex w-[200px] flex-col gap-5 min-[1156px]:flex-col"
+        />
       </div>
     </>
   );

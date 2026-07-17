@@ -28,7 +28,7 @@ export default function MoleculesHeader({
       <AtomHeading
         atomHeadingRef={moleculesHeading}
         level="h1"
-        className=" tracking-widest text-center uppercase text-[#07261C] text-[150px] montserrat-b max-[756px]:text-[100px] max-[517px]:text-[70px] max-[374px]:text-[50px]"
+        className=" tracking-widest text-center uppercase whitespace-nowrap text-[#07261C] text-[150px] montserrat-b max-[756px]:text-[100px] max-[517px]:text-[70px] max-[374px]:text-[50px]"
       >
         {headingTitle.split("").map((letter, letterIndex) => (
           <span key={letterIndex} className="inline-block">

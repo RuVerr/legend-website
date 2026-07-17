@@ -1,5 +1,4 @@
 import React from "react";
-// import OrganismHome from "../Organisms/OrganismHome/OrganismHome";
 
 import dynamic from "next/dynamic";
 import OrganismOurSpace from "../Organisms/OrganismHome/OrganismOurSpace";
@@ -13,7 +12,7 @@ export default function TemplateHome() {
   return (
     <main>
       <div className="home_content py-[100px]">
-        <section className="homeHeader">
+        <section className="home_header">
           <OrganismHome />
         </section>
         <section className="our_space">
