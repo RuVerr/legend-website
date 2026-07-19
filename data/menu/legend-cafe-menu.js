@@ -419,6 +419,18 @@ export const DataLegendCafeMenu = [
     mainTitle: "DESSERT",
     items: [
       {
+        itemName: "Ծառուկյան Փանքեյք",
+        rusItem: "Царукян» Панкейк",
+        engItem: "Tsarukyan” Pancake",
+        price: "24900֏"
+      },
+      {
+        itemName: "Ծառուկյան փանքեյք - Մինի",
+        rusItem: "Царукян панкейк - МИНИ",
+        engItem: "Tsarukyan Pancake - MINI",
+        price: "3000֏"
+      },
+      {
         itemName: "Փանքեյք (բանան, նուտելլա, ելակ)",
         rusItem: "Панкейк (банан, нутелла, клубника)",
         engItem: "Pancake (Banana, Nutella, Strawberry)",
