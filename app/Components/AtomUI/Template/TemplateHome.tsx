@@ -11,7 +11,7 @@ const OrganismHome = dynamic(() => import("../Organisms/OrganismHome/OrganismHom
 export default function TemplateHome() {
   return (
     <main>
-      <div className="home_content py-[100px]">
+      <div className="home_content pt-[100px] pb-[20px]">
         <section className="home_header">
           <OrganismHome />
         </section>
