@@ -8,14 +8,8 @@ interface AtomBackgroundProp {
 export default function AtomBackground({ backgroundSRC }: AtomBackgroundProp) {
   if (!backgroundSRC) return null;
   return (
-    <div className="fixed top-0 z-[-1] w-full h-[100lvh] overflow-hidden ">
-      <Image
-        src={backgroundSRC}
-        alt="Legend music hall background image"
-        fill
-        priority
-        className="object-cover max-lg:[object-position:80%_center] "
-      />
+    <div className="pointer-events-none fixed inset-0 z-[0]">
+      <Image src={backgroundSRC} alt="Legend music hall background image" fill priority className="object-cover" />
     </div>
   );
 }

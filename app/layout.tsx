@@ -78,7 +78,8 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  viewportFit: "cover"
+  viewportFit: "cover",
+  themeColor: "#000000"
 };
 
 export default function RootLayout({
@@ -89,12 +90,12 @@ export default function RootLayout({
   return (
     <html lang="hy">
       <body>
-        <LanguageProvider>
-          <TemplateNavigation />
-          <TemplateBackground />
-          {children}
-          <TemplateFooter />
-        </LanguageProvider>
+        <TemplateBackground />
+          <LanguageProvider>
+            <TemplateNavigation />
+            {children}
+            <TemplateFooter />
+          </LanguageProvider>
       </body>
     </html>
   );
