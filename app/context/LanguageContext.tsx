@@ -1,17 +1,17 @@
 import { createContext } from "react";
 
-import { en } from "@/public/locales/en";
+import { am } from "@/public/locales/am";
 
-export type Language = "en" | "ru";
+export type Language = "am" | "en" | "ru";
 
 interface LanguageContextProp {
   language: string;
   setLanguage: (language: Language) => void;
-  t: typeof en;
+  t: typeof am;
 }
 
 export const LanguageContext = createContext<LanguageContextProp>({
-  language: "en",
+  language: "am",
   setLanguage: () => {},
-  t: en
+  t: am
 });
