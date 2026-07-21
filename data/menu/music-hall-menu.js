@@ -37,7 +37,7 @@ export const DataMusicHallMenu = [
     items: [
       { itemName: "Դաբլ Չիզբուրգեր", price: "4900֏" },
       { itemName: "Համբուրգեր", price: "3900֏" },
-      { itemName: "Չիքենբուրգեր", price: "3500֏" },
+      // { itemName: "Չիքենբուրգեր", price: "3500֏" },
       { itemName: "Քլաբ սենդվիչ սաղմոնով", price: "5900֏" },
       { itemName: "Քլաբ Սենդվիչ Հավով", price: "2900֏" },
       { itemName: "Խրթխրթան սեթ", price: "10900֏" },
