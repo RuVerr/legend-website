@@ -5,6 +5,7 @@ import AtomHeading from "../../Atoms/AtomTypography/AtomHeading";
 import AtomParagraph from "../../Atoms/AtomTypography/AtomParagraph";
 import AtomLinks from "../../Atoms/AtomActions/AtomLinks";
 import Image from "next/image";
+import { useLanguage } from "@/app/context/useLanguage";
 
 interface MoleculesHeaderProp {
   moleculesHeading: RefObject<HTMLHeadingElement | null>;
@@ -19,9 +20,10 @@ export default function MoleculesHeader({
   moleculesParagraph,
   moleculesLinks
 }: MoleculesHeaderProp) {
+  const { t } = useLanguage();
   const restAndCafeImgURL = ["/images/icons/menu-icon.svg", "/images/icons/cafe-menu.svg"];
   const headingTitle = "Legend";
-  const paragraph = "Մի վայր, որտեղ համը դառնում է լեգենդ։ Բացահայտեք նրբաճաշակ խոհանոցն ու վայելեք էլեգանտ մթնոլորտը";
+  const paragraph = t.homeHeaderParagraph;
 
   return (
     <div className="header_and_paragraph">

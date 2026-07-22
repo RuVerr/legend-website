@@ -13,7 +13,7 @@ interface MoleculesNavigationProp {
 
 export default function MoleculesNavigation({ className, navigationContentRef }: MoleculesNavigationProp) {
   const pathname = usePathname();
-  const { t, language, setLanguage } = useLanguage();
+  const { t, setLanguage } = useLanguage();
 
   const links = [
     { title: t.navigation.home, href: "/" },
@@ -47,8 +47,9 @@ export default function MoleculesNavigation({ className, navigationContentRef }:
               />
             </AtomLi>
           ))}
-          {/* <button onClick={() => setLanguage("en")}>en</button>
-          <button onClick={() => setLanguage("ru")}>ru</button> */}
+          <button onClick={() => setLanguage("am")}>am</button>
+          <button onClick={() => setLanguage("en")}>en</button>
+          <button onClick={() => setLanguage("ru")}>ru</button>
         </AtomUl>
       </div>
     </div>
