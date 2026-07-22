@@ -279,7 +279,7 @@ export const DataMusicHallMenu = [
       { itemName: "Պինա Կոլադա", price: "3500֏" },
       { itemName: "Պոռնստար Մարտինի", price: "4000֏" },
       { itemName: "Մարգարիտա", price: "3500֏" },
-      { itemName: "Տոնիկ 1", price: "1500֏" },
+      { itemName: "Տոնիկ", price: "2000֏" },
       { itemName: "Տեկիլա Սանրայզ", price: "3500֏" },
       { itemName: "Ապեռոլ Շպրից", price: "4500֏" },
       { itemName: "Դու-Դու", price: "2500֏" },

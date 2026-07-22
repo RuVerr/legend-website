@@ -8,7 +8,11 @@ interface MoleculesContactsProp {
   contactsContentClassName: string;
 }
 
-export default function MoleculesContacts({ moleculesContacts, moleculesSoc, contactsContentClassName = "" }: MoleculesContactsProp) {
+export default function MoleculesContacts({
+  moleculesContacts,
+  moleculesSoc,
+  contactsContentClassName = ""
+}: MoleculesContactsProp) {
   const contactsInfo = [
     {
       href: "https://www.google.com/maps/place/Legend+Music+Hall/@40.1791684,44.5170794,17z/data=!3m1!4b1!4m6!3m5!1s0x406abd541c1b0951:0x492b9cc47239d253!8m2!3d40.1791684!4d44.5170794!16s%2Fg%2F11ykk16c43?entry=ttu&g_ep=EgoyMDI2MDYxMC4wIKXMDSoASAFQAw%3D%3D",
@@ -16,7 +20,7 @@ export default function MoleculesContacts({ moleculesContacts, moleculesSoc, con
       title: "48/1 Nalbandyan St, Yerevan"
     },
     {
-      href: "tel:+37412345678",
+      href: "tel:+37441707010",
       icon: "/images/icons/phone.svg",
       title: `041 707010`
     },
