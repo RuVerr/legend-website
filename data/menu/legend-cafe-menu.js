@@ -205,7 +205,7 @@ export const DataLegendCafeMenu = [
         itemName: "Տոնիկ",
         rusItem: "Тоник",
         engItem: "Tonic",
-        price: "800֏"
+        price: "1700֏"
       },
       {
         itemName: "Ռեդ Բուլ",
