@@ -21,22 +21,26 @@ export default function OrganismMobileNavigation() {
     const hiddenScreen = hiddenScreenRef.current;
     const lines = burgerLineRefs.current;
 
-    tl.current = gsap.timeline({ paused: true });
+    gsap.set(nav, { xPercent: 100 });
+    gsap.set(hiddenScreen, { autoAlpha: 0, pointerEvents: "none" });
 
-    tl.current
+    tl.current = gsap
+      .timeline({ paused: true })
+      .to(hiddenScreen, {
+        autoAlpha: 1,
+        pointerEvents: "auto",
+        duration: 0.2
+      })
+      .to(nav, {
+        xPercent: 0,
+        duration: 0.5,
+        ease: "power4.inOut"
+      })
       .to(lines[0], { y: 13, duration: 0.2 })
       .to(lines[2], { y: -13, duration: 0.2 }, "<")
       .to(lines[0], { rotate: 45, duration: 0.2 }, "<")
       .to(lines[2], { rotate: -45, duration: 0.2 }, "<")
       .to(lines[1], { scale: 0.1, duration: 0.2, autoAlpha: 0 }, "<");
-
-    tl.current.from(nav, {
-      xPercent: 100,
-      duration: 0.5,
-      ease: "power4.inOut"
-    });
-
-    tl.current.from(hiddenScreen, { xPercent: 100, autoAlpha: 0 }, "<");
   }, []);
 
   useEffect(() => {
@@ -56,12 +60,12 @@ export default function OrganismMobileNavigation() {
 
   return (
     <>
-      <div className="mobile_navigation_content relative min-[620px]:hidden">
-        <div
-          onClick={menuToggle}
-          ref={hiddenScreenRef}
-          className={`fixed inset-0 h-[100dvh] w-full bg-[#0c2c234f] backdrop-blur-[3px]`}
-        ></div>
+      <div
+        onClick={menuToggle}
+        ref={hiddenScreenRef}
+        className={`fixed inset-0 z-10 h-[100dvh] w-full backdrop-blur-[3px]`}
+      />
+      <div className="mobile_navigation_content relative z-[1000] min-[620px]:hidden">
         <div
           onClick={menuToggle}
           className="burger_menu absolute top-[50px] right-[10px] z-[10000] w-[50px] h-[30px] flex flex-col justify-between"
@@ -80,7 +84,7 @@ export default function OrganismMobileNavigation() {
         </div>
         <MoleculesNavigation
           navigationContentRef={navigationContentRef}
-          className=" fixed right-0 top-0 flex flex-col pt-[120px] px-[40px] h-[100dvh] bg-[#d8cec51e] rounded-l-2xl drop-shadow-2xl backdrop-blur-2xl"
+          className="fixed right-0 top-0 flex flex-col pt-[120px] px-[40px] h-[100dvh] bg-[#d8cec51e] rounded-l-2xl drop-shadow-2xl backdrop-blur-2xl"
         />
       </div>
     </>

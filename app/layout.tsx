@@ -89,13 +89,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="hy">
-      <body>
+      <body className="bg-[#0c2c23]">
         <TemplateBackground />
-          <LanguageProvider>
-            <TemplateNavigation />
-            {children}
-            <TemplateFooter />
-          </LanguageProvider>
+        <LanguageProvider>
+          <TemplateNavigation />
+          {children}
+          <TemplateFooter />
+        </LanguageProvider>
       </body>
     </html>
   );
