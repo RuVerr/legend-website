@@ -200,18 +200,6 @@ export const DataLegendCafeMenu = [
         rusItem: "Мимоза",
         engItem: "Mimosa",
         price: "2200֏"
-      },
-      {
-        itemName: "Տոնիկ",
-        rusItem: "Тоник",
-        engItem: "Tonic",
-        price: "1700֏"
-      },
-      {
-        itemName: "Ռեդ Բուլ",
-        rusItem: "Ред Бул",
-        engItem: "Red Bull",
-        price: "900֏"
       }
     ]
   },
@@ -289,6 +277,18 @@ export const DataLegendCafeMenu = [
         rusItem: "Джермук",
         engItem: "Jermuk",
         price: "600֏"
+      },
+      {
+        itemName: "Տոնիկ",
+        rusItem: "Тоник",
+        engItem: "Tonic",
+        price: "1700֏"
+      },
+      {
+        itemName: "Ռեդ Բուլ",
+        rusItem: "Ред Бул",
+        engItem: "Red Bull",
+        price: "900֏"
       }
     ]
   },
