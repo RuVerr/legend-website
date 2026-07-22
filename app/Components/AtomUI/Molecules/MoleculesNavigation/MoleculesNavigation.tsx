@@ -47,9 +47,9 @@ export default function MoleculesNavigation({ className, navigationContentRef }:
               />
             </AtomLi>
           ))}
-          <button onClick={() => setLanguage("am")}>am</button>
+          {/* <button onClick={() => setLanguage("am")}>am</button>
           <button onClick={() => setLanguage("en")}>en</button>
-          <button onClick={() => setLanguage("ru")}>ru</button>
+          <button onClick={() => setLanguage("ru")}>ru</button> */}
         </AtomUl>
       </div>
     </div>
