@@ -23,6 +23,7 @@ export default function MoleculesHeader({
   const { t } = useLanguage();
   const restAndCafeImgURL = ["/images/icons/menu-icon.svg", "/images/icons/cafe-menu.svg"];
   const headingTitle = "Legend";
+  const wordMenu = t.homeMenuButton
   const paragraph = t.homeHeaderParagraph;
 
   return (
@@ -49,7 +50,7 @@ export default function MoleculesHeader({
         </AtomParagraph>
       </div>
       <div ref={moleculesLinks} className="link_box flex flex-col gap-3 justify-center items-center pt-[33px]">
-        {["Music Hall մենյու", "Legend cafe մենյու"].map((el, elIndex) => (
+        {[`Music Hall ${wordMenu}`, `Legend cafe ${wordMenu}`].map((el, elIndex) => (
           <AtomLinks
             key={elIndex}
             value="NextLink"

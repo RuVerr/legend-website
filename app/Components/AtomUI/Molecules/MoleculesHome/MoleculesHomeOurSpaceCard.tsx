@@ -5,6 +5,7 @@ import AtomParagraph from "../../Atoms/AtomTypography/AtomParagraph";
 import Image from "next/image";
 
 import gsap from "gsap";
+import { useLanguage } from "@/app/context/useLanguage";
 
 interface CardImage {
   image: string;
@@ -22,7 +23,16 @@ interface MoleculesHomeOurSpaceCardProps {
 }
 
 export default function MoleculesHomeOurSpaceCard() {
-  
+  const { t } = useLanguage();
+  const cardTitleMain = t.ourSpaceSection.ourSpaceCards.cardMainHall.title;
+  const cardParagraphMain = t.ourSpaceSection.ourSpaceCards.cardMainHall.paragraph;
+
+  const cardTitleLoungeArea = t.ourSpaceSection.ourSpaceCards.cardLoungeArea.title;
+  const cardParagraphLoungeArea = t.ourSpaceSection.ourSpaceCards.cardLoungeArea.paragraph;
+
+  const cardTitleVipArea = t.ourSpaceSection.ourSpaceCards.cardVipHall.title;
+  const cardParagraphVipArea = t.ourSpaceSection.ourSpaceCards.cardVipHall.paragraph
+
   const cardData = [
     {
       cardImage: [
@@ -31,8 +41,8 @@ export default function MoleculesHomeOurSpaceCard() {
         { image: "/images/background/menu-background.jpg" },
         { image: "/images/background/menu-background1.jpg" }
       ],
-      title: "Գլխավոր սրահ",
-      paragraph: "Ընդարձակ և ոճային՝ կատարյալ ցանկացած առիթի համար",
+      title: cardTitleMain,
+      paragraph: cardParagraphMain,
       icon: "/images/icons/chairs.svg"
     },
     {
@@ -42,8 +52,8 @@ export default function MoleculesHomeOurSpaceCard() {
         { image: "/images/background/menu-background.jpg" },
         { image: "/images/background/menu-background1.jpg" }
       ],
-      title: "Հանգստի գոտի",
-      paragraph: "Հարմարավետ և հանգիստ միջավայր՝ հանգստանալու և հաճելի ժամանակ անցկացնելու համար",
+      title: cardTitleLoungeArea,
+      paragraph: cardParagraphLoungeArea,
       icon: "/images/icons/sofa.svg"
     },
     {
@@ -53,15 +63,15 @@ export default function MoleculesHomeOurSpaceCard() {
         { image: "/images/background/menu-background.jpg" },
         { image: "/images/background/menu-background1.jpg" }
       ],
-      title: "VIP սրահ",
-      paragraph: "Բացառիկ և առանձնահատուկ մթնոլորտ՝ իդեալական VIP միջոցառումների և հանդիպումների համար",
+      title: cardTitleVipArea,
+      paragraph: cardParagraphVipArea,
       icon: "/images/icons/vip.svg"
     }
   ];
   const [slideCurrent, setSlideCurrent] = useState(cardData.map(() => 0));
   const cardTrackRef = useRef<HTMLDivElement[]>([]);
   const intervalRef = useRef<(NodeJS.Timeout | null)[]>([]);
-  
+
   const totalCard = cardData[0].cardImage.length;
 
   function startAutoSlide(cardIndex: number) {
