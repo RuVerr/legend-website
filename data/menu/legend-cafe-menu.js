@@ -431,6 +431,12 @@ export const DataLegendCafeMenu = [
         price: "3000֏"
       },
       {
+        itemName: "Շոկմանժե",
+        rusItem: "Шокманже",
+        engItem: "Chocmanje",
+        price: "1700֏"
+      },
+      {
         itemName: "Փանքեյք (բանան, նուտելլա, ելակ)",
         rusItem: "Панкейк (банан, нутелла, клубника)",
         engItem: "Pancake (Banana, Nutella, Strawberry)",
