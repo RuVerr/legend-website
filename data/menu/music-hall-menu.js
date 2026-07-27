@@ -113,6 +113,7 @@ export const DataMusicHallMenu = [
       { itemName: "Չիզքեյք դասական", price: "2900֏" },
       { itemName: "Բրաունի", price: "3700֏" },
       { itemName: "Դառը Շոկոլադ", price: "2900֏" },
+      { itemName: "Բլանմանժե", price: "2100֏" },
       { itemName: "Դան դեսերտ", price: "800֏" },
       { itemName: "Պաղպաղակ", price: "1900֏" },
       { itemName: "Չարազ փառթի", price: "2900֏" },
