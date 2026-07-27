@@ -44,12 +44,6 @@ export default function MoleculesMenuList({ menuInfo, moleculesUl, moleculesMenu
             >
               <AtomLi key={itemIndex} className="montserrat-b text-[#6f5229] pl-[10px] text-[20px]">
                 {item.itemName}
-                {item.engItem && item.rusItem && (
-                  <>
-                    <span className="montserrat-b block text-[#6f5229] py-[10px]">{item?.rusItem}</span>
-                    <span className="montserrat-b block text-[#6f5229]">{item?.engItem}</span>
-                  </>
-                )}
               </AtomLi>
               <span className="montserrat-b pl-[10px] text-[20px] text-[#6f5229] whitespace-nowrap">{item.price}</span>
             </div>

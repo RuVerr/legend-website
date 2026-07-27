@@ -1,10 +1,14 @@
+"use client"
 import React from "react";
 import MoleculesMenuHeading from "../../Molecules/MoleculesMenu/MoleculesMenuHeading";
 import MoleculesMenuList from "../../Molecules/MoleculesMenu/MoleculesMenuList";
 
-import { DataLegendCafeMenu } from "@/data/menu/legend-cafe-menu";
+// import { DataLegendCafeMenu } from "@/data/menu/legend-cafe-menu";
+import { useLanguage } from "@/app/context/useLanguage";
 
 export default function OrganismCafeMenu() {
+  const { t } = useLanguage();
+  const DataLegendCafeMenu = t.cafeMenuPage.DataLegendCafeMenu
   return (
     <div className="menu">
       <div className="container">
