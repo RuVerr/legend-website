@@ -1,7 +1,12 @@
+"use client";
+
 import React from "react";
 import AtomHeading from "../../Atoms/AtomTypography/AtomHeading";
+import { useLanguage } from "@/app/context/useLanguage";
 
 export default function MoleculesBanquetHeader() {
+  const { t } = useLanguage();
+  const packageTitle = t.packagesSection.heading;
   return (
     <>
       <div className="flex justify-center text-center pt-[70px] pb-[50px]">
@@ -12,7 +17,7 @@ export default function MoleculesBanquetHeader() {
             level="h3"
             className=" montserrat-b text-[56px] tracking-[6px] uppercase max-[788px]:text-[46px] max-[666px]:text-[36px] tracking-[2px] "
           >
-            Փաթեթներ
+            {packageTitle}
           </AtomHeading>
           <span className=" block border-t border-[#946326] my-[10px]" />
         </div>

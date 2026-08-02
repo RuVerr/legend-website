@@ -1,24 +1,23 @@
+"use client";
 import React from "react";
 import AtomHeading from "../../Atoms/AtomTypography/AtomHeading";
 import AtomParagraph from "../../Atoms/AtomTypography/AtomParagraph";
+import { useLanguage } from "@/app/context/useLanguage";
 
 export default function MoleculesAboutUsHeading() {
+  const { t } = useLanguage();
+  const aboutUsHeading = t.aboutSection.heading
+  const aboutUsParagraphOne = t.aboutSection.paragraphOne
+  const aboutUsParagraphTwo = t.aboutSection.paragraphTwo;
   return (
     <div className="about_us_header_and_paragraph w-full text-center flex flex-col items-center">
       <div className="about_us_header_and_paragraph_box w-[70%]">
         <AtomHeading level="h2" className="text-[42px] text-[#5a421f]">
-          Մեր մասին
+          {aboutUsHeading}
         </AtomHeading>
         <span className="block border-b-1 border-[#b08d57] my-[20px]"></span>
-        <AtomParagraph className="text-[#5a421f]">
-          Legend-ը մի վայր է, որտեղ համադրվում են նրբաճաշակ խոհանոցը, բարձրակարգ սպասարկումն ու ջերմ մթնոլորտը։ Մենք
-          ստեղծում ենք յուրահատուկ փորձառություն՝ օգտագործելով միայն թարմ և բարձրորակ բաղադրիչներ, որպեսզի յուրաքանչյուր
-          այցելություն դառնա հիշարժան։
-        </AtomParagraph>
-        <AtomParagraph className="pt-[20px] text-[#5a421f]">
-          Մեր նպատակն է հյուրերին մատուցել ոչ միայն համեղ ուտեստներ, այլև անմոռանալի պահեր, որտեղ յուրաքանչյուր մանրուք
-          ստեղծված է հաճույք պարգևելու համար։
-        </AtomParagraph>
+        <AtomParagraph className="text-[#5a421f]">{aboutUsParagraphOne}</AtomParagraph>
+        <AtomParagraph className="pt-[20px] text-[#5a421f]">{aboutUsParagraphTwo}</AtomParagraph>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ import TemplateNavigation from "./Components/AtomUI/Template/TemplateNavigation"
 import TemplateBackground from "./Components/AtomUI/Template/TemplateBackground";
 import TemplateFooter from "./Components/AtomUI/Template/TemplateFooter";
 import LanguageProvider from "./context/LanguageProvider";
+import OrganismSwitchLanguage from "./Components/AtomUI/Organisms/OrganismSwitchLanguage/OrganismSwitchLanguage";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://legend.am"),
@@ -94,6 +95,7 @@ export default function RootLayout({
         <LanguageProvider>
           <TemplateNavigation />
           {children}
+          <OrganismSwitchLanguage />
           <TemplateFooter />
         </LanguageProvider>
       </body>

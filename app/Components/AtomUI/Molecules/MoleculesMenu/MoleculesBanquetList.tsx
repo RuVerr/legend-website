@@ -1,31 +1,16 @@
+"use client";
 import React from "react";
 import AtomUl from "../../Atoms/AtomList/AtomUl";
 import AtomLi from "../../Atoms/AtomList/AtomLi";
 import AtomHeading from "../../Atoms/AtomTypography/AtomHeading";
 import AtomParagraph from "../../Atoms/AtomTypography/AtomParagraph";
+import { useLanguage } from "@/app/context/useLanguage";
 
-interface SubItem {
-  subItem: string;
-}
-
-interface Item {
-  itemTitle: string;
-  subItems: SubItem[];
-}
-
-interface MenuInfo {
-  mainTitle: string;
-  items: Item[];
-}
-
-interface MoleculesBanquetListProps {
-  menuInfo: MenuInfo[];
-}
-
-export default function MoleculesBanquetList({ menuInfo }: MoleculesBanquetListProps) {
+export default function MoleculesBanquetList() {
+  const { t } = useLanguage();
   return (
     <>
-      {menuInfo.map((category, catIndex) => (
+      {t.banquetPage.banquetMenuInfo.map((category, catIndex) => (
         <div className="banquet_content_box flex flex-col items-center pt-[40px]" key={catIndex}>
           <AtomHeading
             level="h2"

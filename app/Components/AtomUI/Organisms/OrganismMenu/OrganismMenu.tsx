@@ -3,12 +3,15 @@ import React, { useLayoutEffect, useRef } from "react";
 import MoleculesMenuHeading from "../../Molecules/MoleculesMenu/MoleculesMenuHeading";
 import MoleculesMenuList from "../../Molecules/MoleculesMenu/MoleculesMenuList";
 
-import { DataMusicHallMenu } from "@/data/menu/music-hall-menu";
+// import { DataMusicHallMenu } from "@/data/menu/music-hall-menu";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { useLanguage } from "@/app/context/useLanguage";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function OrganismMenu() {
+  const { t } = useLanguage();
+  const DataMusicHallMenu = t.hallMenuPage.DataMusicHallMenu;
   const moleculesUlRef = useRef<HTMLUListElement | null>(null);
   const moleculesMenuListContentRef = useRef<HTMLDivElement | null>(null);
 
