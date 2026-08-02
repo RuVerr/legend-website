@@ -6,7 +6,7 @@ interface MoleculesSwitchLanguageProp {
 }
 export default function MoleculesSwitchLanguage({ onChangeLanguage }: MoleculesSwitchLanguageProp) {
   return (
-    <div className="group fixed right-[10px] bottom-[50px] z-[10000] flex gap-2 bg-[#0c2c23] px-[10px] py-[5px] rounded-2xl">
+    <div className="group fixed right-[10px] bottom-[10px] z-[10000] flex gap-2 bg-[#0c2c23] px-[10px] py-[5px] rounded-2xl">
       <button onClick={() => onChangeLanguage("am")} className=" text-[18px] uppercase text-white cursor-pointer">
         am
       </button>
