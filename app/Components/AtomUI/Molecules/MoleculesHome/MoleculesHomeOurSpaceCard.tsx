@@ -31,37 +31,35 @@ export default function MoleculesHomeOurSpaceCard() {
   const cardParagraphLoungeArea = t.ourSpaceSection.ourSpaceCards.cardLoungeArea.paragraph;
 
   const cardTitleVipArea = t.ourSpaceSection.ourSpaceCards.cardVipHall.title;
-  const cardParagraphVipArea = t.ourSpaceSection.ourSpaceCards.cardVipHall.paragraph
+  const cardParagraphVipArea = t.ourSpaceSection.ourSpaceCards.cardVipHall.paragraph;
 
   const cardData = [
     {
       cardImage: [
-        { image: "/images/background/about-us-background.jpg" },
-        { image: "/images/background/home-background.jpg" },
-        { image: "/images/background/menu-background.jpg" },
-        { image: "/images/background/menu-background1.jpg" }
+        { image: "/images/halls-images/music-hall/music-hall.jpg" },
+        { image: "/images/halls-images/music-hall/music-hall-4.jpg" },
+        { image: "/images/halls-images/music-hall/music-hall-5.jpg" },
+        { image: "/images/halls-images/music-hall/music-hall-6.jpg" }
       ],
       title: cardTitleMain,
       paragraph: cardParagraphMain,
       icon: "/images/icons/chairs.svg"
     },
+    // {
+    //   cardImage: [
+    //     { image: "/images/background/about-us-background.jpg" },
+    //     { image: "/images/background/home-background.jpg" },
+    //     { image: "/images/background/menu-background.jpg" },
+    //     { image: "/images/background/menu-background1.jpg" }
+    //   ],
+    //   title: cardTitleLoungeArea,
+    //   paragraph: cardParagraphLoungeArea,
+    //   icon: "/images/icons/sofa.svg"
+    // },
     {
       cardImage: [
-        { image: "/images/background/about-us-background.jpg" },
-        { image: "/images/background/home-background.jpg" },
-        { image: "/images/background/menu-background.jpg" },
-        { image: "/images/background/menu-background1.jpg" }
-      ],
-      title: cardTitleLoungeArea,
-      paragraph: cardParagraphLoungeArea,
-      icon: "/images/icons/sofa.svg"
-    },
-    {
-      cardImage: [
-        { image: "/images/background/about-us-background.jpg" },
-        { image: "/images/background/home-background.jpg" },
-        { image: "/images/background/menu-background.jpg" },
-        { image: "/images/background/menu-background1.jpg" }
+        { image: "/images/halls-images/vip-hall/vip.jpg" },
+        { image: "/images/halls-images/vip-hall/vip-2.jpg" }
       ],
       title: cardTitleVipArea,
       paragraph: cardParagraphVipArea,
@@ -128,13 +126,13 @@ export default function MoleculesHomeOurSpaceCard() {
   }, []);
   return (
     <>
-      <div className="our_space_card flex gap-6 max-[1156px]:gap-6 max-[900px]:flex-col items-center mx-[10px]">
+      <div className="our_space_card flex justify-center gap-6 max-[1156px]:gap-6 max-[900px]:flex-col items-center mx-[10px]">
         {cardData.map((card, cardIndex) => (
           <div
             key={cardIndex}
             className="relative w-[400px] min-h-[500px] pb-[20px] overflow-hidden bg-[#E5D7CE] border border-[#946326] rounded-3xl shadow-2xl max-[404px]:w-full"
           >
-            <div className="card_button w-full h-[200px] flex justify-between items-center absolute z-50">
+            <div className="card_button w-full h-[200px] flex justify-between items-center absolute z-50 ">
               <button
                 onClick={() => {
                   prevSlide(cardIndex);
@@ -163,8 +161,14 @@ export default function MoleculesHomeOurSpaceCard() {
               className="card_images relative flex"
             >
               {card.cardImage.map((cardImg, cardImgIndex) => (
-                <div key={cardImgIndex} className="min-w-full relative h-[200px] shrink-0">
-                  <Image src={cardImg.image} alt="sss" fill />
+                <div key={cardImgIndex} className="w-full shrink-0">
+                  <Image
+                    src={cardImg.image}
+                    alt="sss"
+                    width={400}
+                    height={200}
+                    className="w-full h-[200px] object-cover"
+                  />
                 </div>
               ))}
             </div>
