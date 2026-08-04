@@ -371,7 +371,7 @@ export const en = {
           { itemName: "Karas Extra Brut", price: "15000֏" },
           { itemName: "Karas Sweet", price: "15000֏" },
           { itemName: "Moët", price: "68000֏" },
-          { itemName: "Dom Pérignon", price: "22000֏" },
+          { itemName: "Dom Pérignon", price: "220000֏" },
           { itemName: "Frunzik Sparkling Wine", price: "13000֏" },
           { itemName: "Party Popper", price: "2900֏" }
         ]
