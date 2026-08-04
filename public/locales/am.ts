@@ -358,7 +358,7 @@ export const am = {
           { itemName: "Կարաս Էքստրա Բրուտ", price: "15000֏" },
           { itemName: "Կարաս Սյուիթ", price: "15000֏" },
           { itemName: "Մոյոտ", price: "68000֏" },
-          { itemName: "Դոն Պերինյոն", price: "22000֏" },
+          { itemName: "Դոն Պերինյոն", price: "220000֏" },
           { itemName: "Ֆրունզիկ Փրփրուն", price: "13000֏" },
           { itemName: "Շրխկան/Xlapushka/Party popper", price: "2900֏" }
         ]
