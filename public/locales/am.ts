@@ -1,5 +1,3 @@
-import { banquetInfo } from "@/data/menu/banquet-menu";
-
 export const am = {
   navigation: {
     home: "Գլխավոր",
