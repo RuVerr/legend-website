@@ -229,10 +229,10 @@ export const am = {
           { itemName: "Հատապտղային Լիմոնադ", price: "4500֏" },
           { itemName: "Ֆրեշ", price: "1700֏" },
           { itemName: "Ֆրեշ Էկզոտիկ", price: "2300֏" },
-          { itemName: "Բնական հյութ", price: "800֏" },
+          { itemName: "Բնական հյութ", price: "1000֏" },
+          { itemName: "Բնական Հյութ Գրաֆին", price: "4800֏" },
           { itemName: "Թուրինջ Թարմ Քամած", price: "2400֏" },
-          { itemName: "Նարինջ Թարմ Քամած", price: "5000֏" },
-          { itemName: "Բնական Հյութ Գրաֆին", price: "2900֏" },
+          { itemName: "Նարինջ Թարմ Քամած", price: "2900֏" },
           { itemName: "Սառը թեյ", price: "1000֏" },
           { itemName: "Red Bull", price: "1600֏" }
         ]
@@ -242,7 +242,7 @@ export const am = {
         items: [
           { itemName: "Մրգի Տեսականի(մեծ)", price: "14900֏" },
           { itemName: "Մրգի Տեսականի(փոքր)", price: "7900֏" },
-          { itemName: "Էկզոտիկ մրգեր", price: "25900֏" },
+          // { itemName: "Էկզոտիկ մրգեր", price: "25900֏" },
           { itemName: "Տիրամիսու", price: "3500֏" },
           { itemName: "Չիզքեյք դասական", price: "2900֏" },
           { itemName: "Բրաունի", price: "3700֏" },
@@ -281,6 +281,7 @@ export const am = {
           { itemName: "Բակարդի Բլեք 50մլ", price: "3800֏" },
           { itemName: "Բակարդի Օքարթ 50մլ", price: "3600֏" },
           { itemName: "Բակարդի 8տ. 50մլ", price: "3600֏" },
+          { itemName: "Հենդրիկս. 50մլ", price: "3900֏" },
           { itemName: "Հավանա Քլաբ 3տ. 50մլ", price: "2900֏" },
           { itemName: "Հավանա Քլաբ 7տ. 50մլ", price: "2700֏" },
           { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
@@ -306,6 +307,8 @@ export const am = {
         items: [
           { itemName: "Բիֆիթր 50մլ", price: "2900֏" },
           { itemName: "Բոմբեյ Սափֆիր 50մլ", price: "2800֏" },
+          { itemName: "Բոմբեյ 50մլ", price: "3200֏" },
+          { itemName: "Մոնքի 50մլ", price: "4500֏" },
           { itemName: "Հենդրիքս 50մլ", price: "2300֏" },
           { itemName: "Մոնկեյ 50մլ", price: "2300֏" },
           { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
@@ -366,13 +369,13 @@ export const am = {
       {
         mainTitle: "Լիկյոր",
         items: [
-          { itemName: "Յեգերմեյստեր 50 մլ", price: "7900֏" },
-          { itemName: "Աբսենտ 50 մլ", price: "22000֏" },
-          { itemName: "Սամբուկա 50 մլ", price: "15000֏" },
-          { itemName: "Միդորի 50 մլ", price: "15000֏" },
-          { itemName: "Թրիփլ Սեկ 50 մլ", price: "68000֏" },
-          { itemName: "Կուանտրո 50 մլ", price: "22000֏" },
-          { itemName: "Ամարետո 50 մլ", price: "13000֏" },
+          { itemName: "Յեգերմեյստեր 50 մլ", price: "2200֏" },
+          { itemName: "Աբսենտ 50 մլ", price: "2000֏" },
+          { itemName: "Սամբուկա 50 մլ", price: "2000֏" },
+          { itemName: "Միդորի 50 մլ", price: "2000֏" },
+          { itemName: "Թրիփլ Սեկ 50 մլ", price: "2000֏" },
+          { itemName: "Կուանտրո 50 մլ", price: "2000֏" },
+          { itemName: "Ամարետո 50 մլ", price: "2000֏" },
           { itemName: "Բեյլիզ 50 մլ", price: "2900֏" },
           { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]

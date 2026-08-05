@@ -242,10 +242,10 @@ export const en = {
           { itemName: "Berry Lemonade", price: "4500֏" },
           { itemName: "Freshly Squeezed Juice", price: "1700֏" },
           { itemName: "Exotic Fresh Juice", price: "2300֏" },
-          { itemName: "Natural Juice", price: "800֏" },
+          { itemName: "Natural Juice", price: "1000֏" },
+          { itemName: "Natural Juice Carafe", price: "4800֏" },
           { itemName: "Freshly Squeezed Grapefruit Juice", price: "2400֏" },
-          { itemName: "Freshly Squeezed Orange Juice", price: "5000֏" },
-          { itemName: "Natural Juice Carafe", price: "2900֏" },
+          { itemName: "Freshly Squeezed Orange Juice", price: "2900֏" },
           { itemName: "Iced Tea", price: "1000֏" },
           { itemName: "Red Bull", price: "1600֏" }
         ]
@@ -255,7 +255,7 @@ export const en = {
         items: [
           { itemName: "Large Fruit Platter", price: "14900֏" },
           { itemName: "Small Fruit Platter", price: "7900֏" },
-          { itemName: "Exotic Fruit Platter", price: "25900֏" },
+          // { itemName: "Exotic Fruit Platter", price: "25900֏" },
           { itemName: "Tiramisu", price: "3500֏" },
           { itemName: "Classic Cheesecake", price: "2900֏" },
           { itemName: "Brownie", price: "3700֏" },
@@ -294,6 +294,7 @@ export const en = {
           { itemName: "Bacardi Black 50 ml", price: "3800֏" },
           { itemName: "Bacardi Oakheart 50 ml", price: "3600֏" },
           { itemName: "Bacardi 8 Year Old 50 ml", price: "3600֏" },
+          { itemName: "Hendrick's. 50մլ", price: "3900֏" },
           { itemName: "Havana Club 3 Year Old 50 ml", price: "2900֏" },
           { itemName: "Havana Club 7 Year Old 50 ml", price: "2700֏" },
           { itemName: "20% Off When Ordering a Full Bottle", price: "20% OFF" }
@@ -319,6 +320,8 @@ export const en = {
         items: [
           { itemName: "Beefeater 50 ml", price: "2900֏" },
           { itemName: "Bombay Sapphire 50 ml", price: "2800֏" },
+          { itemName: "Bombay 50 ml", price: "3200֏" },
+          { itemName: "Manqi 50 ml", price: "4500֏" },
           { itemName: "Hendrick's 50 ml", price: "2300֏" },
           { itemName: "Monkey 50 ml", price: "2300֏" },
           { itemName: "20% Off When Ordering a Full Bottle", price: "20% OFF" }
@@ -379,13 +382,13 @@ export const en = {
       {
         mainTitle: "Liqueurs",
         items: [
-          { itemName: "Jägermeister 50 ml", price: "7900֏" },
-          { itemName: "Absinthe 50 ml", price: "22000֏" },
-          { itemName: "Sambuca 50 ml", price: "15000֏" },
-          { itemName: "Midori 50 ml", price: "15000֏" },
-          { itemName: "Triple Sec 50 ml", price: "68000֏" },
-          { itemName: "Cointreau 50 ml", price: "22000֏" },
-          { itemName: "Amaretto 50 ml", price: "13000֏" },
+          { itemName: "Jägermeister 50 ml", price: "2200֏" },
+          { itemName: "Absinthe 50 ml", price: "2000֏" },
+          { itemName: "Sambuca 50 ml", price: "2000֏" },
+          { itemName: "Midori 50 ml", price: "2000֏" },
+          { itemName: "Triple Sec 50 ml", price: "2000֏" },
+          { itemName: "Cointreau 50 ml", price: "2000֏" },
+          { itemName: "Amaretto 50 ml", price: "2000֏" },
           { itemName: "Baileys 50 ml", price: "2900֏" },
           { itemName: "20% Off When Ordering a Full Bottle", price: "20% OFF" }
         ]
@@ -649,7 +652,8 @@ export const en = {
         mainTitle: "GIN",
         items: [
           { itemName: "Beefeater", price: "2600֏" },
-          { itemName: "Bombay Sapphire", price: "2800֏" },
+          { itemName: "Bombay Sapphire", price: "3200֏" },
+          { itemName: "Մանկի. 50մլ", price: "4500֏" },
           { itemName: "Hendrick's", price: "4000֏" },
           { itemName: "Monkey 47", price: "5000֏" }
         ]
@@ -676,6 +680,7 @@ export const en = {
           { itemName: "Bacardi Black", price: "2700֏" },
           { itemName: "Bacardi Oakheart Spiced", price: "2500֏" },
           { itemName: "Bacardi 8 Year Old", price: "3600֏" },
+          { itemName: "Hendrick's. 50 ml", price: "3900֏" },
           { itemName: "Havana Club 3 Años", price: "2500֏" },
           { itemName: "Havana Club 7 Años", price: "3200֏" }
         ]

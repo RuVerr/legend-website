@@ -243,10 +243,10 @@ export const ru = {
           { itemName: "Ягодный лимонад", price: "4500֏" },
           { itemName: "Свежевыжатый сок", price: "1700֏" },
           { itemName: "Экзотический фреш", price: "2300֏" },
-          { itemName: "Натуральный сок", price: "800֏" },
+          { itemName: "Натуральный сок", price: "1000֏" },
+          { itemName: "Натуральный сок в графине", price: "4800֏" },
           { itemName: "Свежевыжатый грейпфрутовый сок", price: "2400֏" },
-          { itemName: "Свежевыжатый апельсиновый сок", price: "5000֏" },
-          { itemName: "Натуральный сок в графине", price: "2900֏" },
+          { itemName: "Свежевыжатый апельсиновый сок", price: "2900֏" },
           { itemName: "Холодный чай", price: "1000֏" },
           { itemName: "Red Bull", price: "1600֏" }
         ]
@@ -256,7 +256,7 @@ export const ru = {
         items: [
           { itemName: "Фруктовое ассорти — большое", price: "14900֏" },
           { itemName: "Фруктовое ассорти — малое", price: "7900֏" },
-          { itemName: "Ассорти экзотических фруктов", price: "25900֏" },
+          // { itemName: "Ассорти экзотических фруктов", price: "25900֏" },
           { itemName: "Тирамису", price: "3500֏" },
           { itemName: "Классический чизкейк", price: "2900֏" },
           { itemName: "Брауни", price: "3700֏" },
@@ -295,6 +295,7 @@ export const ru = {
           { itemName: "Bacardi Black 50 мл", price: "3800֏" },
           { itemName: "Bacardi Oakheart 50 мл", price: "3600֏" },
           { itemName: "Bacardi 8 лет 50 мл", price: "3600֏" },
+          { itemName: "Hendrick's. 50 ml", price: "3900֏" },
           { itemName: "Havana Club 3 года 50 мл", price: "2900֏" },
           { itemName: "Havana Club 7 лет 50 мл", price: "2700֏" },
           { itemName: "При заказе целой бутылки", price: "скидка 20%" }
@@ -320,6 +321,8 @@ export const ru = {
         items: [
           { itemName: "Beefeater 50 мл", price: "2900֏" },
           { itemName: "Bombay Sapphire 50 мл", price: "2800֏" },
+          { itemName: "Bombay 50 мл", price: "3200֏" },
+          { itemName: "Manqi 50 мл", price: "4500֏" },
           { itemName: "Hendrick's 50 мл", price: "2300֏" },
           { itemName: "Monkey 50 мл", price: "2300֏" },
           { itemName: "При заказе целой бутылки", price: "скидка 20%" }
@@ -380,13 +383,13 @@ export const ru = {
       {
         mainTitle: "Ликёры",
         items: [
-          { itemName: "Jägermeister 50 мл", price: "7900֏" },
-          { itemName: "Абсент 50 мл", price: "22000֏" },
-          { itemName: "Самбука 50 мл", price: "15000֏" },
-          { itemName: "Midori 50 мл", price: "15000֏" },
-          { itemName: "Triple Sec 50 мл", price: "68000֏" },
-          { itemName: "Cointreau 50 мл", price: "22000֏" },
-          { itemName: "Amaretto 50 мл", price: "13000֏" },
+          { itemName: "Jägermeister 50 мл", price: "2200֏" },
+          { itemName: "Абсент 50 мл", price: "2000֏" },
+          { itemName: "Самбука 50 мл", price: "2000֏" },
+          { itemName: "Midori 50 мл", price: "2000֏" },
+          { itemName: "Triple Sec 50 мл", price: "2000֏" },
+          { itemName: "Cointreau 50 мл", price: "2000֏" },
+          { itemName: "Amaretto 50 мл", price: "2000֏" },
           { itemName: "Baileys 50 мл", price: "2900֏" },
           { itemName: "При заказе целой бутылки", price: "скидка 20%" }
         ]
