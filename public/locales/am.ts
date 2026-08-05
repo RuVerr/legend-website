@@ -526,24 +526,6 @@ export const am = {
         ]
       },
       {
-        mainTitle: "ԳԻՆԻ",
-        items: [
-          { itemName: "Կարմիր / Սպիտակ", price: "1900֏" },
-          { itemName: "Տակառային", price: "2800֏" },
-          { itemName: "Ֆրունզիկ սպիտակ", price: "2800֏" },
-          { itemName: "Ֆրունզիկ կարմիր", price: "2100֏" },
-          { itemName: "Ֆրունզիկ վարդագույն", price: "1800֏" }
-        ]
-      },
-      {
-        mainTitle: "ԳԱՐԵՋՈՒՐ",
-        items: [
-          { itemName: "Կորոնա", price: "1900֏" },
-          { itemName: "Միլեր", price: "1700֏" },
-          { itemName: "Հայնեկեն", price: "1500֏" }
-        ]
-      },
-      {
         mainTitle: "ՀԱՎԵԼՈՒՄՆԵՐ",
         items: [
           { itemName: "Հաց", price: "700֏" },
@@ -575,107 +557,162 @@ export const am = {
       {
         mainTitle: "ՕՂԻ",
         items: [
-          { itemName: "Չիստի Ռուսի", price: "2500֏" },
-          { itemName: "Աբսոլուտ", price: "1700֏" },
-          { itemName: "Ֆինլանդիա", price: "1800֏" },
-          { itemName: "Գրեյ Գուս", price: "4200֏" },
-          { itemName: "Օհանյան", price: "2200֏" },
-          { itemName: "Օհանյան Այս", price: "2400֏" },
-          { itemName: "Ռոմանով", price: "2000֏" },
-          { itemName: "Նալբանդյան 8", price: "2000֏" },
-          { itemName: "Նալբանդյան 88", price: "2600֏" },
-          { itemName: "Նալբանդյան 888", price: "3200֏" },
-          { itemName: "Նալբանդյան Կանացի", price: "2600֏" },
-          { itemName: "Վոզդուխ (Հաուս)", price: "1000֏" },
-          { itemName: "Մամոնտ", price: "2400֏" }
+          { itemName: "Chistye Rosy", price: "2500֏" },
+          { itemName: "Absolut", price: "1700֏" },
+          { itemName: "Finlandia", price: "1800֏" },
+          { itemName: "Grey Goose", price: "3300֏" },
+          { itemName: "Ohanyan", price: "1900֏" },
+          { itemName: "Ohanyan Ice", price: "2100֏" },
+          { itemName: "Romanov", price: "1700֏" },
+          { itemName: "Nalbandyan 8", price: "2000֏" },
+          { itemName: "Nalbandyan 88", price: "2300֏" },
+          { itemName: "Nalbandyan 888", price: "4400֏" },
+          { itemName: "Nalbandyan For Women", price: "2300֏" },
+          { itemName: "Vozdukh (House)", price: "1000֏" },
+          { itemName: "Mamont", price: "2400֏" }
+        ]
+      },
+      {
+        mainTitle: "ԳԻՆԻ",
+        items: [
+          { itemName: "Karas White", price: "1900֏" },
+          { itemName: "Karas Red", price: "2200֏" },
+          { itemName: "Takar Red", price: "2700֏" },
+          { itemName: "Takar White", price: "2700֏" },
+          { itemName: "Frunzik White", price: "2500֏" },
+          { itemName: "Frunzik Red", price: "1900֏" },
+          { itemName: "Frunzik Rosé", price: "1500֏" }
+        ]
+      },
+      {
+        mainTitle: "ԳԱՐԵՋՈՒՐ",
+        items: [
+          { itemName: "Corona", price: "1900֏" },
+          { itemName: "Miller", price: "1700֏" },
+          { itemName: "Heineken", price: "1500֏" }
         ]
       },
       {
         mainTitle: "ՏԵԿԻԼԱ",
         items: [
-          { itemName: "Օլմեկա Բլանկո", price: "2900֏" },
-          { itemName: "Օլմեկա Գոլդ", price: "2800֏" },
-          { itemName: "Սիեռա Սիլվեր", price: "2300֏" },
-          { itemName: "Սիեռա Գոլդ", price: "2300֏" },
-          { itemName: "Դոն Խուլիո Բլանկո", price: "6000֏" },
-          { itemName: "Դոն Խուլիո Ռեպոսադո", price: "6500֏" },
-          { itemName: "Դոն Խուլիո 1942", price: "15000֏" },
-          { itemName: "Պատրոն Սիլվեր", price: "7000֏" },
-          { itemName: "Պատրոն Ռեպոսադո", price: "7500֏" }
+          { itemName: "Olmeca Blanco", price: "2300֏" },
+          { itemName: "Olmeca Gold", price: "2200֏" },
+          { itemName: "Olmeca Silver", price: "1700֏" },
+          { itemName: "Sierra Silver", price: "2300֏" },
+          { itemName: "Sierra Gold", price: "1700֏" },
+          { itemName: "Don Julio Blanco", price: "5400֏" },
+          { itemName: "Don Julio Reposado", price: "5900֏" },
+          { itemName: "Don Julio 1942", price: "18400֏" },
+          { itemName: "Patrón Silver", price: "4700֏" },
+          { itemName: "Patrón Reposado", price: "5600֏" }
         ]
       },
       {
         mainTitle: "ՎԻՍԿԻ",
         items: [
-          { itemName: "Ջեք Դենիելս", price: "2800֏" },
-          { itemName: "Ջեք Դենիելս Մեղր", price: "3200֏" },
-          { itemName: "Ջեք Դենիելս Խնձոր", price: "3200֏" },
-          { itemName: "Ջեք Դենիելս Ֆայր", price: "3300֏" },
-          { itemName: "Ջիմ Բիմ", price: "2800֏" },
-          { itemName: "Ջեյմսոն", price: "2900֏" },
-          { itemName: "Չիվաս 12 տ", price: "3700֏" },
-          { itemName: "Չիվաս 18 տ", price: "7000֏" },
-          { itemName: "Չիվաս 21 տ", price: "12000֏" },
-          { itemName: "Բալանտայնզ", price: "2600֏" },
-          { itemName: "Գլենֆիդիչ 12 տ", price: "4500֏" },
-          { itemName: "Մակալան 12 տ", price: "8000֏" },
-          { itemName: "Մոնքի Շոուլդեր", price: "4500֏" }
+          { itemName: "Jack Daniel's", price: "2800֏" },
+          { itemName: "Jack Daniel's Honey", price: "3200֏" },
+          { itemName: "Jack Daniel's Apple", price: "3200֏" },
+          { itemName: "Jack Daniel's Fire", price: "3300֏" },
+          { itemName: "Jim Beam", price: "2800֏" },
+          { itemName: "Jameson", price: "2300֏" },
+          { itemName: "Chivas 12 Y.O.", price: "3700֏" },
+          { itemName: "Chivas 18 Y.O.", price: "7000֏" },
+          { itemName: "Chivas 21 Y.O.", price: "12000֏" },
+          { itemName: "Ballantine's", price: "2600֏" },
+          { itemName: "Glenfiddich 12 Y.O.", price: "4500֏" },
+          { itemName: "Macallan 12 Y.O.", price: "7300֏" },
+          { itemName: "Monkey Shoulder", price: "3900֏" }
         ]
       },
       {
         mainTitle: "ԿՈՆՅԱԿ",
         items: [
-          { itemName: "3 տարեկան", price: "1900֏" },
-          { itemName: "5 տարեկան", price: "2200֏" },
-          { itemName: "7 տարեկան", price: "2600֏" },
-          { itemName: "10 տարեկան", price: "3500֏" },
-          { itemName: "Արարատ Ծիրան", price: "3500֏" },
-          { itemName: "Հեննեսի V.S.O.P", price: "5700֏" },
-          { itemName: "Հեննեսի XO", price: "16500֏" }
+          // { itemName: "Ararat 3 Y.O.", price: "1600֏" },
+          { itemName: "Ararat 5 Y.O.", price: "1600֏" },
+          { itemName: "Ararat 7 Y.O.", price: "1800֏" },
+          { itemName: "Ararat 10 Y.O.", price: "2600֏" },
+          { itemName: "Ararat Apricot", price: "1600֏" },
+          { itemName: "Hennessy VSOP", price: "4300֏" },
+          { itemName: "Hennessy XO", price: "16300֏" }
         ]
       },
       {
         mainTitle: "ՋԻՆ",
         items: [
-          { itemName: "Բիֆիտեր", price: "2600֏" },
-          { itemName: "Բոմբեյ Սափֆայր", price: "2800֏" },
-          { itemName: "Հենդրիկս", price: "4000֏" },
-          { itemName: "Մոնկի 47", price: "5000֏" }
+          { itemName: "Beefeater", price: "2000֏" },
+          { itemName: "Bombay Sapphire", price: "2600֏" },
+          { itemName: "Bombay", price: "2600֏" },
+          { itemName: "Monkey", price: "3900֏" },
+          { itemName: "Hendrick's", price: "3300֏" }
         ]
       },
       {
         mainTitle: "ԼԻԿՅՈՐ",
         items: [
-          { itemName: "Ջեգերմայստեր", price: "2600֏" },
-          { itemName: "Աբսենտ", price: "3000֏" },
-          { itemName: "Սամբուկա", price: "3000֏" },
-          { itemName: "Միդորի", price: "2000֏" },
-          { itemName: "Թրիփլ Սեկ", price: "2500֏" },
-          { itemName: "Կուանտրո", price: "2800֏" },
-          { itemName: "Ամարետտո", price: "2900֏" },
-          { itemName: "Բեյլիս", price: "2900֏" },
-          { itemName: "Կամպարի", price: "2500֏" },
-          { itemName: "Ապերոլ", price: "2800֏" }
+          { itemName: "Jägermeister", price: "1900֏" },
+          { itemName: "Absinthe", price: "1700֏" },
+          { itemName: "Sambuca", price: "1700֏" },
+          { itemName: "Midori", price: "1700֏" },
+          { itemName: "Triple Sec", price: "1700֏" },
+          { itemName: "Cointreau", price: "1700֏" },
+          { itemName: "Amaretto", price: "1700֏" },
+          { itemName: "Baileys", price: "2600֏" },
+          { itemName: "Campari", price: "2500֏" },
+          { itemName: "Aperol", price: "2800֏" }
         ]
       },
       {
         mainTitle: "ՌՈՄ",
         items: [
-          { itemName: "Բակարդի Սպիտակ", price: "2700֏" },
-          { itemName: "Բակարդի Բլեք", price: "2700֏" },
-          { itemName: "Բակարդի Օքհարթ Սփայս", price: "2500֏" },
-          { itemName: "Բակարդի 8 տ", price: "3600֏" },
-          { itemName: "Հավանա Կլաբ 3 տ", price: "2500֏" },
-          { itemName: "Հավանա Կլաբ 7 տ", price: "3200֏" }
+          { itemName: "Bacardi White", price: "2100֏" },
+          { itemName: "Bacardi Black", price: "2100֏" },
+          { itemName: "Bacardi Oakheart Spiced", price: "3000֏" },
+          { itemName: "Bacardi 8 Y.O.", price: "3000֏" },
+          { itemName: "Havana Club 3 Y.O.", price: "1900֏" },
+          { itemName: "Havana Club 7 Y.O.", price: "2600֏" }
         ]
       },
       {
         mainTitle: "ՎԵՐՄՈՒՏ",
         items: [
-          { itemName: "Մարտինի Բիանկո", price: "2000֏" },
-          { itemName: "Մարտինի Ռոսո", price: "2000֏" },
-          { itemName: "Մարտինի Ռոզատո", price: "2000֏" },
-          { itemName: "Մարտինի Էքստրա Դրայ", price: "2000֏" }
+          { itemName: "Martini Bianco", price: "1700֏" },
+          { itemName: "Martini Rosso", price: "1700֏" },
+          { itemName: "Martini Rosato", price: "1700֏" },
+          { itemName: "Martini Extra Dry", price: "1700֏" }
+        ]
+      },
+      {
+        mainTitle: "Ապերիտիվ",
+        items: [
+          { itemName: "Campari", price: "2200֏" },
+          { itemName: "Aperol", price: "2500֏" }
+        ]
+      },
+      {
+        mainTitle: "Կոկտեյլներ",
+        items: [
+          { itemName: "Mojito", price: "3200֏" },
+          { itemName: "Piña Colada", price: "3200֏" },
+          { itemName: "Margarita", price: "3200֏" },
+          { itemName: "Tequila Sunrise", price: "3200֏" },
+          { itemName: "Pornstar Martini", price: "3700֏" },
+          { itemName: "Aperol Spritz", price: "4200֏" },
+          { itemName: "Du-Du", price: "2200֏" },
+          { itemName: "Negroni", price: "3700֏" },
+          { itemName: "Mai Tai", price: "4200֏" },
+          { itemName: "Long Island", price: "4200֏" },
+          { itemName: "Adios", price: "4200֏" },
+          { itemName: "Cuba Libre", price: "3000֏" },
+          { itemName: "Daiquiri", price: "2700֏" },
+          { itemName: "Vodka Martini", price: "2700֏" },
+          { itemName: "B-52", price: "2200֏" },
+          { itemName: "B-53", price: "2200֏" },
+          { itemName: "Hiroshima", price: "2200֏" },
+          { itemName: "Bloody Mary", price: "2200֏" },
+          { itemName: "Black Russian", price: "2700֏" },
+          { itemName: "White Russian", price: "2700֏" },
+          { itemName: "Cosmopolitan", price: "3000֏" }
         ]
       }
     ]

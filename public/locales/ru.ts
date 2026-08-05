@@ -540,24 +540,6 @@ export const ru = {
         ]
       },
       {
-        mainTitle: "ВИНО",
-        items: [
-          { itemName: "Красное / Белое", price: "1900֏" },
-          { itemName: "Домашнее вино", price: "2800֏" },
-          { itemName: "Frunzik белое", price: "2800֏" },
-          { itemName: "Frunzik красное", price: "2100֏" },
-          { itemName: "Frunzik розовое", price: "1800֏" }
-        ]
-      },
-      {
-        mainTitle: "ПИВО",
-        items: [
-          { itemName: "Corona", price: "1900֏" },
-          { itemName: "Miller", price: "1700֏" },
-          { itemName: "Heineken", price: "1500֏" }
-        ]
-      },
-      {
         mainTitle: "ДОПОЛНЕНИЯ",
         items: [
           { itemName: "Хлеб", price: "700֏" },
@@ -587,109 +569,164 @@ export const ru = {
         ]
       },
       {
-        mainTitle: "ВОДКА",
+        mainTitle: "Водка",
         items: [
-          { itemName: "Чистые Росы", price: "2500֏" },
+          { itemName: "Chistye Rosy", price: "2500֏" },
           { itemName: "Absolut", price: "1700֏" },
           { itemName: "Finlandia", price: "1800֏" },
-          { itemName: "Grey Goose", price: "4200֏" },
-          { itemName: "Ohanyan", price: "2200֏" },
-          { itemName: "Ohanyan Ice", price: "2400֏" },
-          { itemName: "Romanov", price: "2000֏" },
+          { itemName: "Grey Goose", price: "3300֏" },
+          { itemName: "Ohanyan", price: "1900֏" },
+          { itemName: "Ohanyan Ice", price: "2100֏" },
+          { itemName: "Romanov", price: "1700֏" },
           { itemName: "Nalbandyan 8", price: "2000֏" },
-          { itemName: "Nalbandyan 88", price: "2600֏" },
-          { itemName: "Nalbandyan 888", price: "3200֏" },
-          { itemName: "Nalbandyan Kanatsi", price: "2600֏" },
-          { itemName: "Воздух (House)", price: "1000֏" },
+          { itemName: "Nalbandyan 88", price: "2300֏" },
+          { itemName: "Nalbandyan 888", price: "4400֏" },
+          { itemName: "Nalbandyan For Women", price: "2300֏" },
+          { itemName: "Vozdukh (House)", price: "1000֏" },
           { itemName: "Mamont", price: "2400֏" }
         ]
       },
       {
-        mainTitle: "ТЕКИЛА",
+        mainTitle: "Вино",
         items: [
-          { itemName: "Olmeca Blanco", price: "2900֏" },
-          { itemName: "Olmeca Gold", price: "2800֏" },
-          { itemName: "Sierra Silver", price: "2300֏" },
-          { itemName: "Sierra Gold", price: "2300֏" },
-          { itemName: "Don Julio Blanco", price: "6000֏" },
-          { itemName: "Don Julio Reposado", price: "6500֏" },
-          { itemName: "Don Julio 1942", price: "15000֏" },
-          { itemName: "Patrón Silver", price: "7000֏" },
-          { itemName: "Patrón Reposado", price: "7500֏" }
+          { itemName: "Karas White", price: "1900֏" },
+          { itemName: "Karas Red", price: "2200֏" },
+          { itemName: "Takar Red", price: "2700֏" },
+          { itemName: "Takar White", price: "2700֏" },
+          { itemName: "Frunzik White", price: "2500֏" },
+          { itemName: "Frunzik Red", price: "1900֏" },
+          { itemName: "Frunzik Rosé", price: "1500֏" }
         ]
       },
       {
-        mainTitle: "ВИСКИ",
+        mainTitle: "Пиво",
+        items: [
+          { itemName: "Corona", price: "1900֏" },
+          { itemName: "Miller", price: "1700֏" },
+          { itemName: "Heineken", price: "1500֏" }
+        ]
+      },
+      {
+        mainTitle: "Текила",
+        items: [
+          { itemName: "Olmeca Blanco", price: "2300֏" },
+          { itemName: "Olmeca Gold", price: "2200֏" },
+          { itemName: "Olmeca Silver", price: "1700֏" },
+          { itemName: "Sierra Silver", price: "2300֏" },
+          { itemName: "Sierra Gold", price: "1700֏" },
+          { itemName: "Don Julio Blanco", price: "5400֏" },
+          { itemName: "Don Julio Reposado", price: "5900֏" },
+          { itemName: "Don Julio 1942", price: "18400֏" },
+          { itemName: "Patrón Silver", price: "4700֏" },
+          { itemName: "Patrón Reposado", price: "5600֏" }
+        ]
+      },
+      {
+        mainTitle: "Виски",
         items: [
           { itemName: "Jack Daniel's", price: "2800֏" },
-          { itemName: "Jack Daniel's Tennessee Honey", price: "3200֏" },
-          { itemName: "Jack Daniel's Tennessee Apple", price: "3200֏" },
-          { itemName: "Jack Daniel's Tennessee Fire", price: "3300֏" },
+          { itemName: "Jack Daniel's Honey", price: "3200֏" },
+          { itemName: "Jack Daniel's Apple", price: "3200֏" },
+          { itemName: "Jack Daniel's Fire", price: "3300֏" },
           { itemName: "Jim Beam", price: "2800֏" },
-          { itemName: "Jameson", price: "2900֏" },
-          { itemName: "Chivas Regal 12 лет", price: "3700֏" },
-          { itemName: "Chivas Regal 18 лет", price: "7000֏" },
-          { itemName: "Chivas Regal 21 год", price: "12000֏" },
+          { itemName: "Jameson", price: "2300֏" },
+          { itemName: "Chivas 12 Y.O.", price: "3700֏" },
+          { itemName: "Chivas 18 Y.O.", price: "7000֏" },
+          { itemName: "Chivas 21 Y.O.", price: "12000֏" },
           { itemName: "Ballantine's", price: "2600֏" },
-          { itemName: "Glenfiddich 12 лет", price: "4500֏" },
-          { itemName: "The Macallan 12 лет", price: "8000֏" },
-          { itemName: "Monkey Shoulder", price: "4500֏" }
+          { itemName: "Glenfiddich 12 Y.O.", price: "4500֏" },
+          { itemName: "Macallan 12 Y.O.", price: "7300֏" },
+          { itemName: "Monkey Shoulder", price: "3900֏" }
         ]
       },
       {
-        mainTitle: "КОНЬЯК И БРЕНДИ",
+        mainTitle: "Коньяк",
         items: [
-          { itemName: "Ararat 3 года", price: "1900֏" },
-          { itemName: "Ararat 5 лет", price: "2200֏" },
-          { itemName: "Ararat 7 лет", price: "2600֏" },
-          { itemName: "Ararat 10 лет", price: "3500֏" },
-          { itemName: "Ararat Apricot", price: "3500֏" },
-          { itemName: "Hennessy V.S.O.P", price: "5700֏" },
-          { itemName: "Hennessy XO", price: "16500֏" }
+          // { itemName: "Ararat 3 Y.O.", price: "1600֏" },
+          { itemName: "Ararat 5 Y.O.", price: "1600֏" },
+          { itemName: "Ararat 7 Y.O.", price: "1800֏" },
+          { itemName: "Ararat 10 Y.O.", price: "2600֏" },
+          { itemName: "Ararat Apricot", price: "1600֏" },
+          { itemName: "Hennessy VSOP", price: "4300֏" },
+          { itemName: "Hennessy XO", price: "16300֏" }
         ]
       },
       {
-        mainTitle: "ДЖИН",
+        mainTitle: "Джин",
         items: [
-          { itemName: "Beefeater", price: "2600֏" },
-          { itemName: "Bombay Sapphire", price: "2800֏" },
-          { itemName: "Hendrick's", price: "4000֏" },
-          { itemName: "Monkey 47", price: "5000֏" }
+          { itemName: "Beefeater", price: "2000֏" },
+          { itemName: "Bombay Sapphire", price: "2600֏" },
+          { itemName: "Bombay", price: "2600֏" },
+          { itemName: "Monkey", price: "3900֏" },
+          { itemName: "Hendrick's", price: "3300֏" }
         ]
       },
       {
-        mainTitle: "ЛИКЁРЫ",
+        mainTitle: "Ликер",
         items: [
-          { itemName: "Jägermeister", price: "2600֏" },
-          { itemName: "Абсент", price: "3000֏" },
-          { itemName: "Самбука", price: "3000֏" },
-          { itemName: "Midori", price: "2000֏" },
-          { itemName: "Triple Sec", price: "2500֏" },
-          { itemName: "Cointreau", price: "2800֏" },
-          { itemName: "Amaretto", price: "2900֏" },
-          { itemName: "Baileys", price: "2900֏" },
+          { itemName: "Jägermeister", price: "1900֏" },
+          { itemName: "Absinthe", price: "1700֏" },
+          { itemName: "Sambuca", price: "1700֏" },
+          { itemName: "Midori", price: "1700֏" },
+          { itemName: "Triple Sec", price: "1700֏" },
+          { itemName: "Cointreau", price: "1700֏" },
+          { itemName: "Amaretto", price: "1700֏" },
+          { itemName: "Baileys", price: "2600֏" },
           { itemName: "Campari", price: "2500֏" },
           { itemName: "Aperol", price: "2800֏" }
         ]
       },
       {
-        mainTitle: "РОМ",
+        mainTitle: "Ром",
         items: [
-          { itemName: "Bacardi Carta Blanca", price: "2700֏" },
-          { itemName: "Bacardi Black", price: "2700֏" },
-          { itemName: "Bacardi Oakheart Spiced", price: "2500֏" },
-          { itemName: "Bacardi 8 лет", price: "3600֏" },
-          { itemName: "Havana Club 3 года", price: "2500֏" },
-          { itemName: "Havana Club 7 лет", price: "3200֏" }
+          { itemName: "Bacardi White", price: "2100֏" },
+          { itemName: "Bacardi Black", price: "2100֏" },
+          { itemName: "Bacardi Oakheart Spiced", price: "3000֏" },
+          { itemName: "Bacardi 8 Y.O.", price: "3000֏" },
+          { itemName: "Havana Club 3 Y.O.", price: "1900֏" },
+          { itemName: "Havana Club 7 Y.O.", price: "2600֏" }
         ]
       },
       {
-        mainTitle: "ВЕРМУТ",
+        mainTitle: "Вермут",
         items: [
-          { itemName: "Martini Bianco", price: "2000֏" },
-          { itemName: "Martini Rosso", price: "2000֏" },
-          { itemName: "Martini Rosato", price: "2000֏" },
-          { itemName: "Martini Extra Dry", price: "2000֏" }
+          { itemName: "Martini Bianco", price: "1700֏" },
+          { itemName: "Martini Rosso", price: "1700֏" },
+          { itemName: "Martini Rosato", price: "1700֏" },
+          { itemName: "Martini Extra Dry", price: "1700֏" }
+        ]
+      },
+      {
+        mainTitle: "Аператив",
+        items: [
+          { itemName: "Campari", price: "2200֏" },
+          { itemName: "Aperol", price: "2500֏" }
+        ]
+      },
+      {
+        mainTitle: "Коктейли",
+        items: [
+          { itemName: "Mojito", price: "3200֏" },
+          { itemName: "Piña Colada", price: "3200֏" },
+          { itemName: "Margarita", price: "3200֏" },
+          { itemName: "Tequila Sunrise", price: "3200֏" },
+          { itemName: "Pornstar Martini", price: "3700֏" },
+          { itemName: "Aperol Spritz", price: "4200֏" },
+          { itemName: "Du-Du", price: "2200֏" },
+          { itemName: "Negroni", price: "3700֏" },
+          { itemName: "Mai Tai", price: "4200֏" },
+          { itemName: "Long Island", price: "4200֏" },
+          { itemName: "Adios", price: "4200֏" },
+          { itemName: "Cuba Libre", price: "3000֏" },
+          { itemName: "Daiquiri", price: "2700֏" },
+          { itemName: "Vodka Martini", price: "2700֏" },
+          { itemName: "B-52", price: "2200֏" },
+          { itemName: "B-53", price: "2200֏" },
+          { itemName: "Hiroshima", price: "2200֏" },
+          { itemName: "Bloody Mary", price: "2200֏" },
+          { itemName: "Black Russian", price: "2700֏" },
+          { itemName: "White Russian", price: "2700֏" },
+          { itemName: "Cosmopolitan", price: "3000֏" }
         ]
       }
     ]
