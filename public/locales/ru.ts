@@ -272,91 +272,91 @@ export const ru = {
       {
         mainTitle: "Виски",
         items: [
-          { itemName: "Jack Daniel's 50 мл", price: "3200֏" },
-          { itemName: "Jack Daniel's Tennessee Honey 50 мл", price: "3800֏" },
-          { itemName: "Jack Daniel's Tennessee Apple 50 мл", price: "3600֏" },
-          { itemName: "Jack Daniel's Tennessee Fire 50 мл", price: "3600֏" },
-          { itemName: "Jim Beam 50 мл", price: "2900֏" },
-          { itemName: "Jameson 50 мл", price: "2700֏" },
-          { itemName: "Chivas Regal 12 лет 50 мл", price: "3900֏" },
-          { itemName: "Chivas Regal 18 лет 50 мл", price: "6900֏" },
-          { itemName: "Chivas Regal 21 год 50 мл", price: "12000֏" },
-          { itemName: "Ballantine's 50 мл", price: "2500֏" },
-          { itemName: "Glenfiddich 12 лет 50 мл", price: "4700֏" },
-          { itemName: "The Macallan 12 лет 50 мл", price: "9900֏" },
-          { itemName: "Monkey Shoulder 50 мл", price: "4900֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          { itemName: "Jack Daniel's 50 ml", price: "2600֏" },
+          { itemName: "Jack Daniel's Honey 50 ml", price: "3200֏" },
+          { itemName: "Jack Daniel's Apple 50 ml", price: "3000֏" },
+          { itemName: "Jack Daniel's Fire 50 ml", price: "3000֏" },
+          { itemName: "Jim Beam 50 ml", price: "2300֏" },
+          { itemName: "Jameson 50 ml", price: "2900֏" },
+          { itemName: "Chivas 12 Y.O. 50 ml", price: "3300֏" },
+          { itemName: "Chivas 18 Y.O. 50 ml", price: "6300֏" },
+          { itemName: "Chivas 21 Y.O. 50 ml", price: "11400֏" },
+          { itemName: "Ballantine's 50 ml", price: "1900֏" },
+          { itemName: "Glenfiddich 12 Y.O. 50 ml", price: "4100֏" },
+          { itemName: "Macallan 12 Y.O. 50 ml", price: "7900֏" },
+          { itemName: "Monkey Shoulder 50 ml", price: "4300֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
         mainTitle: "Ром",
         items: [
-          { itemName: "Bacardi Carta Blanca 50 мл", price: "3200֏" },
-          { itemName: "Bacardi Black 50 мл", price: "3800֏" },
-          { itemName: "Bacardi Oakheart 50 мл", price: "3600֏" },
-          { itemName: "Bacardi 8 лет 50 мл", price: "3600֏" },
-          { itemName: "Hendrick's. 50 ml", price: "3900֏" },
-          { itemName: "Havana Club 3 года 50 мл", price: "2900֏" },
-          { itemName: "Havana Club 7 лет 50 мл", price: "2700֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          { itemName: "Bacardi White 50 ml", price: "2700֏" },
+          { itemName: "Bacardi Black 50 ml", price: "2700֏" },
+          { itemName: "Bacardi Oakheart 50 ml", price: "3600֏" },
+          { itemName: "Bacardi 8 Y.O. 50 ml", price: "3600֏" },
+          { itemName: "Havana Club 3 Y.O. 50 ml", price: "2500֏" },
+          { itemName: "Havana Club 7 Y.O. 50 ml", price: "3200֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
         mainTitle: "Текила",
         items: [
-          { itemName: "Olmeca Blanco 50 мл", price: "2900֏" },
-          { itemName: "Olmeca Gold 50 мл", price: "2800֏" },
-          { itemName: "Sierra Silver 50 мл", price: "2300֏" },
-          { itemName: "Sierra Gold 50 мл", price: "2300֏" },
-          { itemName: "Don Julio Blanco 50 мл", price: "6500֏" },
-          { itemName: "Don Julio Reposado 50 мл", price: "6700֏" },
-          { itemName: "Don Julio 1942 50 мл", price: "15000֏" },
-          { itemName: "Patrón Silver 50 мл", price: "7500֏" },
-          { itemName: "Patrón Reposado 50 мл", price: "7700֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          { itemName: "Olmeca Blanco 50 ml", price: "2900֏" },
+          { itemName: "Olmeca Gold 50 ml", price: "2800֏" },
+          { itemName: "Sierra Silver 50 ml", price: "2300֏" },
+          { itemName: "Sierra Gold 50 ml", price: "2300֏" },
+          { itemName: "Don Julio Blanco 50 ml", price: "6000֏" },
+          { itemName: "Don Julio Reposado 50 ml", price: "6500֏" },
+          { itemName: "Don Julio 1942 50 ml", price: "19000֏" },
+          { itemName: "Patrón Silver 50 ml", price: "5300֏" },
+          { itemName: "Patrón Reposado 50 ml", price: "6200֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
         mainTitle: "Джин",
         items: [
-          { itemName: "Beefeater 50 мл", price: "2900֏" },
-          { itemName: "Bombay Sapphire 50 мл", price: "2800֏" },
-          { itemName: "Bombay 50 мл", price: "3200֏" },
-          { itemName: "Manqi 50 мл", price: "4500֏" },
-          { itemName: "Hendrick's 50 мл", price: "2300֏" },
-          { itemName: "Monkey 50 мл", price: "2300֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          { itemName: "Beefeater 50 ml", price: "2600֏" },
+          { itemName: "Bombay Sapphire 50 ml", price: "3200֏" },
+          { itemName: "Bombay 50 ml", price: "3200֏" },
+          { itemName: "Monkey 50 ml", price: "4500֏" },
+          { itemName: "Hendrick's 50 ml", price: "3900֏" },
+          // { itemName: "Monkey 50 ml", price: "2300֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
         mainTitle: "Водка",
         items: [
-          { itemName: "Чистые Росы 50 мл", price: "2700֏" },
-          { itemName: "Absolut 50 мл", price: "1100֏" },
-          { itemName: "Finlandia 50 мл", price: "1100֏" },
-          { itemName: "Grey Goose 50 мл", price: "3900֏" },
-          { itemName: "Ohanyan 50 мл", price: "2200֏" },
-          { itemName: "Ohanyan Ice 50 мл", price: "2400֏" },
-          { itemName: "Romanov 50 мл", price: "1700֏" },
-          { itemName: "Nalbandyan 8 50 мл", price: "2000֏" },
-          { itemName: "Nalbandyan 88 50 мл", price: "4200֏" },
-          { itemName: "Nalbandyan 888 50 мл", price: "6000֏" },
-          { itemName: "Nalbandyan Kanatsi 50 мл", price: "2900֏" },
-          { itemName: "Воздух (House) 50 мл", price: "900֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          { itemName: "Chistye Rosy 50 ml", price: "2700֏" },
+          { itemName: "Absolut 50 ml", price: "1100֏" },
+          { itemName: "Finlandia 50 ml", price: "1100֏" },
+          { itemName: "Grey Goose 50 ml", price: "3900֏" },
+          { itemName: "Ohanyan 50 ml", price: "2200֏" },
+          { itemName: "Ohanyan Ice 50 ml", price: "2400֏" },
+          { itemName: "Romanov 50 ml", price: "2000֏" },
+          { itemName: "Nalbandyan 8 50 ml", price: "2000֏" },
+          { itemName: "Nalbandyan 88 50 ml", price: "2600֏" },
+          { itemName: "Nalbandyan 888 50 ml", price: "5000֏" },
+          { itemName: "Nalbandyan Green 50 ml", price: "2900֏" },
+          { itemName: "Nalbandyan For Women 50 ml", price: "2600֏" },
+          { itemName: "Vozdukh (House) 50 ml", price: "900֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
         mainTitle: "Вино",
         items: [
-          { itemName: "Karas белое 150 мл", price: "2500֏" },
-          { itemName: "Karas красное 150 мл", price: "2500֏" },
-          { itemName: "Takar красное 150 мл", price: "3000֏" },
-          { itemName: "Takar белое 150 мл", price: "3000֏" },
-          { itemName: "Frunzik белое 150 мл", price: "3000֏" },
-          { itemName: "Frunzik красное 150 мл", price: "2100֏" },
-          { itemName: "Frunzik розовое 150 мл", price: "1800֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          { itemName: "Karas White 150 ml", price: "2300֏" },
+          { itemName: "Karas Red 150 ml", price: "2500֏" },
+          { itemName: "Takar Red 150 ml", price: "3000֏" },
+          { itemName: "Takar White 150 ml", price: "3000֏" },
+          { itemName: "Frunzik White 150 ml", price: "2800֏" },
+          { itemName: "Frunzik Red 150 ml", price: "2100֏" },
+          { itemName: "Frunzik Rosé 150 ml", price: "1800֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
@@ -368,30 +368,30 @@ export const ru = {
         ]
       },
       {
-        mainTitle: "Игристые вина",
+        mainTitle: "Шампанское",
         items: [
-          { itemName: "Армянское игристое", price: "7900֏" },
+          { itemName: "Armenian Champagne", price: "7900֏" },
           { itemName: "Martini Asti", price: "22000֏" },
           { itemName: "Karas Extra Brut", price: "15000֏" },
           { itemName: "Karas Sweet", price: "15000֏" },
-          { itemName: "Moët", price: "68000֏" },
+          { itemName: "Moët & Chandon", price: "68000֏" },
           { itemName: "Dom Pérignon", price: "220000֏" },
-          { itemName: "Frunzik игристое", price: "13000֏" },
-          { itemName: "Хлопушка Party Popper", price: "2900֏" }
+          { itemName: "Frunzik Sparkling", price: "13000֏" },
+          { itemName: "Party Popper", price: "2900֏" }
         ]
       },
       {
-        mainTitle: "Ликёры",
+        mainTitle: "Ликер",
         items: [
-          { itemName: "Jägermeister 50 мл", price: "2200֏" },
-          { itemName: "Абсент 50 мл", price: "2000֏" },
-          { itemName: "Самбука 50 мл", price: "2000֏" },
-          { itemName: "Midori 50 мл", price: "2000֏" },
-          { itemName: "Triple Sec 50 мл", price: "2000֏" },
-          { itemName: "Cointreau 50 мл", price: "2000֏" },
-          { itemName: "Amaretto 50 мл", price: "2000֏" },
-          { itemName: "Baileys 50 мл", price: "2900֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          { itemName: "Jägermeister 50 ml", price: "2200֏" },
+          { itemName: "Absinthe 50 ml", price: "2000֏" },
+          { itemName: "Sambuca 50 ml", price: "2000֏" },
+          { itemName: "Midori 50 ml", price: "2000֏" },
+          { itemName: "Triple Sec 50 ml", price: "2000֏" },
+          { itemName: "Cointreau 50 ml", price: "2000֏" },
+          { itemName: "Amaretto 50 ml", price: "2000֏" },
+          { itemName: "Baileys 50 ml", price: "2900֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
@@ -404,50 +404,49 @@ export const ru = {
         ]
       },
       {
-        mainTitle: "Аперитивы",
+        mainTitle: "Аператив",
         items: [
-          { itemName: "Campari", price: "2600֏" },
-          { itemName: "Aperol", price: "3000֏" }
+          { itemName: "Campari", price: "2500֏" },
+          { itemName: "Aperol", price: "2800֏" }
         ]
       },
       {
-        mainTitle: "Коньяк и бренди",
+        mainTitle: "Коньяк",
         items: [
-          { itemName: "Ararat 3 года 50 мл", price: "1900֏" },
-          { itemName: "Ararat 5 лет 50 мл", price: "1900֏" },
-          { itemName: "Ararat 7 лет 50 мл", price: "2100֏" },
-          { itemName: "Ararat 10 лет 50 мл", price: "2900֏" },
-          { itemName: "Ararat Apricot 50 мл", price: "1900֏" },
-          { itemName: "Hennessy VSOP 50 мл", price: "4900֏" },
-          { itemName: "Hennessy XO 50 мл", price: "16900֏" },
-          { itemName: "При заказе целой бутылки", price: "скидка 20%" }
+          // { itemName: "Ararat 3 Y.O. 50 ml", price: "1900֏" },
+          { itemName: "Ararat 5 Y.O. 50 ml", price: "1900֏" },
+          { itemName: "Ararat 7 Y.O. 50 ml", price: "2100֏" },
+          { itemName: "Ararat 10 Y.O. 50 ml", price: "2900֏" },
+          { itemName: "Ararat Apricot 50 ml", price: "1900֏" },
+          { itemName: "Hennessy VSOP 50 ml", price: "4900֏" },
+          { itemName: "Hennessy XO 50 ml", price: "16900֏" },
+          { itemName: "ԱՄԲՈՂՋԱԿԱՆ ՇԻՇԸ ԳՆԵԼՈՒ ԴԵՊՔՈՒՄ ԿՍՏԱՆԱՔ", price: "20% ԶԵՂՉ" }
         ]
       },
       {
         mainTitle: "Коктейли",
         items: [
-          { itemName: "Мохито", price: "3500֏" },
-          { itemName: "Пина Колада", price: "3500֏" },
+          { itemName: "Mojito", price: "3500֏" },
+          { itemName: "Piña Colada", price: "3500֏" },
           { itemName: "Pornstar Martini", price: "4000֏" },
-          { itemName: "Маргарита", price: "3500֏" },
-          { itemName: "Тоник", price: "2000֏" },
+          { itemName: "Margarita", price: "3500֏" },
           { itemName: "Tequila Sunrise", price: "3500֏" },
           { itemName: "Aperol Spritz", price: "4500֏" },
-          { itemName: "Ду-Ду", price: "2500֏" },
-          { itemName: "Негрони", price: "4000֏" },
-          { itemName: "Май Тай", price: "4500֏" },
-          { itemName: "Лонг-Айленд", price: "4500֏" },
+          { itemName: "Du-Du", price: "2500֏" },
+          { itemName: "Negroni", price: "4000֏" },
+          { itemName: "Mai Tai", price: "4500֏" },
+          { itemName: "Long Island", price: "4500֏" },
           { itemName: "Adios", price: "4500֏" },
-          { itemName: "Куба Либре", price: "3300֏" },
-          { itemName: "Дайкири", price: "3000֏" },
+          { itemName: "Cuba Libre", price: "3300֏" },
+          { itemName: "Daiquiri", price: "3000֏" },
           { itemName: "Vodka Martini", price: "2800֏" },
           { itemName: "B-52", price: "2500֏" },
           { itemName: "B-53", price: "2500֏" },
-          { itemName: "Хиросима", price: "2500֏" },
-          { itemName: "Кровавая Мэри", price: "2500֏" },
+          { itemName: "Hiroshima", price: "2500֏" },
+          { itemName: "Bloody Mary", price: "2500֏" },
           { itemName: "Black Russian", price: "3000֏" },
           { itemName: "White Russian", price: "3000֏" },
-          { itemName: "Космополитен", price: "3300֏" }
+          { itemName: "Cosmopolitan", price: "3300֏" }
         ]
       }
     ]
