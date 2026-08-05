@@ -703,6 +703,10 @@ export const en = {
         ]
       },
       {
+        mainTitle: "Champagne",
+        items: [{ itemName: "Armenian Champagne", price: "6900֏" }]
+      },
+      {
         mainTitle: "Cocktails",
         items: [
           { itemName: "Mojito", price: "3200֏" },

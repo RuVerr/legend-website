@@ -690,6 +690,12 @@ export const am = {
         ]
       },
       {
+        mainTitle: "Շամպայն",
+        items: [
+          { itemName: "Armenian Champagne", price: "6900֏" },
+        ]
+      },
+      {
         mainTitle: "Կոկտեյլներ",
         items: [
           { itemName: "Mojito", price: "3200֏" },

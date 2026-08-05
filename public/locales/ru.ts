@@ -704,6 +704,10 @@ export const ru = {
         ]
       },
       {
+        mainTitle: "Шампанское",
+        items: [{ itemName: "Armenian Champagne", price: "6900֏" }]
+      },
+      {
         mainTitle: "Коктейли",
         items: [
           { itemName: "Mojito", price: "3200֏" },
