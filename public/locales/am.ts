@@ -145,6 +145,11 @@ export const am = {
           { itemName: "Ձուկ Եվրոպա", price: "10900֏" },
           { itemName: "Ֆոկաչինո բուրատայով", price: "4900֏" },
           { itemName: "Սաղմոնի ռոլլ", price: "4900֏" },
+          { itemName: "Բրուսկետա ավոկադոյով", price: "3300֏" },
+          { itemName: "Բրուսկետա լոլիկով", price: "2900֏" },
+          { itemName: "Բրուսկետա ծովախեցգետիններով", price: "3700֏" },
+          { itemName: "Բրուսկետա սաղմոնով", price: "4200֏" },
+          { itemName: "Բրուսկետա պրոշուտոյով", price: "4000֏" },
           { itemName: "Լայմ", price: "800֏" },
           { itemName: "Լիմոն", price: "700֏" },
           { itemName: "Լիմոնի Եվ Գազարի Սեթ", price: "900֏" },
@@ -456,6 +461,16 @@ export const am = {
         ]
       },
       {
+        mainTitle: "Սառը նախուտեստներ",
+        items: [
+          { itemName: "Բրուսկետա ավոկադոյով", price: "3000֏" },
+          { itemName: "Բրուսկետա լոլիկով", price: "2600֏" },
+          { itemName: "Բրուսկետա ծովախեցգետիններով", price: "3400֏" },
+          { itemName: "Բրուսկետա սաղմոնով", price: "3900֏" },
+          { itemName: "Բրուսկետա պրոշուտոյով", price: "3700֏" }
+        ]
+      },
+      {
         mainTitle: "ԱՂՑԱՆՆԵՐ",
         items: [
           { itemName: "Կեսար ծովախեցգետնով", price: "4100֏" },
@@ -691,9 +706,7 @@ export const am = {
       },
       {
         mainTitle: "Շամպայն",
-        items: [
-          { itemName: "Armenian Champagne", price: "6900֏" },
-        ]
+        items: [{ itemName: "Armenian Champagne", price: "6900֏" }]
       },
       {
         mainTitle: "Կոկտեյլներ",

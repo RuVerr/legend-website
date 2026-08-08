@@ -160,6 +160,11 @@ export const en = {
           { itemName: "European Seafood Platter", price: "10900֏" },
           { itemName: "Focaccino with Burrata", price: "4900֏" },
           { itemName: "Salmon Roll", price: "4900֏" },
+          { itemName: "Bruschetta Avocado", price: "3300֏" },
+          { itemName: "Bruschetta Tomato", price: "2900֏" },
+          { itemName: "Bruschetta with Shrimps", price: "3700֏" },
+          { itemName: "Bruschetta Salmon", price: "4200֏" },
+          { itemName: "Bruschetta Prosciutto", price: "4000֏" },
           { itemName: "Lime", price: "800֏" },
           { itemName: "Lemon", price: "700֏" },
           { itemName: "Lemon & Carrot Set", price: "900֏" },
@@ -466,6 +471,16 @@ export const en = {
           { itemName: "Salmon Croissant", price: "2900 ֏" },
           { itemName: "Legend Tomato Toast", price: "2700֏" },
           { itemName: "Legend Scrambled Egg Toast", price: "2600֏" }
+        ]
+      },
+      {
+        mainTitle: "Cold appetizers",
+        items: [
+          { itemName: "Bruschetta Avocado", price: "3000֏" },
+          { itemName: "Bruschetta Tomato", price: "2600֏" },
+          { itemName: "Bruschetta with Shrimps", price: "3400֏" },
+          { itemName: "Bruschetta Salmon", price: "3900֏" },
+          { itemName: "Bruschetta Prosciutto", price: "3700֏" }
         ]
       },
       {
