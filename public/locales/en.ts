@@ -61,44 +61,6 @@ export const en = {
     menuParagraph: "Carefully prepared dishes made with fresh, high-quality ingredients.",
     banquetMenuInfo: [
       {
-        mainTitle: "12,000 AMD PACKAGE",
-        items: [
-          {
-            itemTitle: "Appetizers",
-            subItems: [
-              { subItem: "Assorted Armenian Cheeses" },
-              { subItem: "Assorted Cold Cuts" },
-              { subItem: "Citrus Olive Mix" },
-              { subItem: "Vegetable Crudités" },
-              { subItem: "Pickled Vegetables" }
-            ]
-          },
-          {
-            itemTitle: "Hot Dishes",
-            subItems: [
-              { subItem: "Grilled Pork Set with Vegetables + Plech" },
-              { subItem: "Chicken Steak with Cream Sauce and Green Beans" }
-            ]
-          },
-          {
-            itemTitle: "Soft Drinks",
-            subItems: [
-              {
-                subItem: "For 6 guests: 12 bottles (Coca-Cola, Fanta, Sprite, Water, Mineral Water)"
-              }
-            ]
-          },
-          {
-            itemTitle: "Alcoholic Drinks",
-            subItems: [
-              {
-                subItem: "For 6 guests: 1 bottle of wine or champagne"
-              }
-            ]
-          }
-        ]
-      },
-      {
         mainTitle: "14,000 AMD PACKAGE",
         items: [
           {
@@ -122,6 +84,49 @@ export const en = {
             subItems: [
               { subItem: "Grilled Set with Vegetables + Plech" },
               { subItem: "Salmon Steak with Cream Sauce and Broccoli" }
+            ]
+          },
+          {
+            itemTitle: "Soft Drinks",
+            subItems: [
+              {
+                subItem: "For 6 guests: 12 bottles (Coca-Cola, Fanta, Sprite, Water, Mineral Water)"
+              }
+            ]
+          },
+          {
+            itemTitle: "Alcoholic Drinks",
+            subItems: [
+              {
+                subItem: "For 6 guests: 1 bottle of wine or champagne"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        mainTitle: "12,000 AMD PACKAGE",
+        items: [
+          {
+            itemTitle: "Appetizers",
+            subItems: [
+              { subItem: "Assorted Armenian Cheeses" },
+              { subItem: "Assorted Cold Cuts" },
+              { subItem: "Citrus Olive Mix" },
+              { subItem: "Vegetable Crudités" },
+              { subItem: "Pickled Vegetables" },
+              { subItem: "Carrot Sticks with Lemon Juice" }
+            ]
+          },
+          {
+            itemTitle: "Salads",
+            subItems: [{ subItem: "Chicken Caesar" }, { subItem: "Caprese" }, { subItem: "Salmon & Avocado Salad" }]
+          },
+          {
+            itemTitle: "Hot Dishes",
+            subItems: [
+              { subItem: "Grilled Pork Set with Vegetables + Plech" },
+              { subItem: "Chicken Steak with Cream Sauce and Green Beans" }
             ]
           },
           {
