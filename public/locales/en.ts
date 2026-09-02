@@ -163,8 +163,8 @@ export const en = {
           { itemName: "Vegetable Crudités", price: "5900֏" },
           { itemName: "Assorted Pickled Vegetables", price: "3900֏" },
           { itemName: "European Seafood Platter", price: "10900֏" },
-          { itemName: "Focaccino with Burrata", price: "4900֏" },
-          { itemName: "Salmon Roll", price: "4900֏" },
+          // { itemName: "Focaccino with Burrata", price: "4900֏" },
+          // { itemName: "Salmon Roll", price: "4900֏" },
           { itemName: "Bruschetta Avocado", price: "3300֏" },
           { itemName: "Bruschetta Tomato", price: "2900֏" },
           { itemName: "Bruschetta with Shrimps", price: "3700֏" },
@@ -173,7 +173,7 @@ export const en = {
           { itemName: "Lime", price: "800֏" },
           { itemName: "Lemon", price: "700֏" },
           { itemName: "Lemon & Carrot Set", price: "900֏" },
-          { itemName: "Assorted Canapés", price: "3900֏" },
+          // { itemName: "Assorted Canapés", price: "3900֏" },
           { itemName: "Bread Basket", price: "900֏" }
         ]
       },
@@ -192,8 +192,8 @@ export const en = {
       {
         mainTitle: "Hot Appetizers",
         items: [
-          { itemName: "Double Cheeseburger", price: "4900֏" },
-          { itemName: "Hamburger", price: "3900֏" },
+          // { itemName: "Double Cheeseburger", price: "4900֏" },
+          // { itemName: "Hamburger", price: "3900֏" },
           // { itemName: "Chicken Burger", price: "3500֏" },
           { itemName: "Salmon Club Sandwich", price: "5900֏" },
           { itemName: "Chicken Club Sandwich", price: "2900֏" },
@@ -227,7 +227,7 @@ export const en = {
         items: [
           { itemName: "Salmon Steak", price: "13900֏" },
           { itemName: "Steak Medallion with Demi-Glace Sauce", price: "14900֏" },
-          { itemName: "Argentinian Steak with BBQ Sauce", price: "12900֏" },
+          // { itemName: "Argentinian Steak with BBQ Sauce", price: "12900֏" },
           { itemName: "Chicken Wings with Signature Sauce", price: "3500֏" },
           { itemName: "Chicken Steak in Cream Sauce", price: "6900֏" },
           { itemName: "Mixed BBQ Platter", price: "29900֏" },
@@ -266,9 +266,9 @@ export const en = {
           { itemName: "Large Fruit Platter", price: "14900֏" },
           { itemName: "Small Fruit Platter", price: "7900֏" },
           // { itemName: "Exotic Fruit Platter", price: "25900֏" },
-          { itemName: "Tiramisu", price: "3500֏" },
-          { itemName: "Classic Cheesecake", price: "2900֏" },
-          { itemName: "Brownie", price: "3700֏" },
+          // { itemName: "Tiramisu", price: "3500֏" },
+          // { itemName: "Classic Cheesecake", price: "2900֏" },
+          // { itemName: "Brownie", price: "3700֏" },
           { itemName: "Dark Chocolate", price: "2900֏" },
           { itemName: "Dan Dessert", price: "800֏" },
           { itemName: "Ice Cream", price: "1900֏" },

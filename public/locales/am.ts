@@ -148,8 +148,8 @@ export const am = {
           { itemName: "Բանջարեղենի կրուդիտե", price: "5900֏" },
           { itemName: "Մարինադ բանջարեղեն", price: "3900֏" },
           { itemName: "Ձուկ Եվրոպա", price: "10900֏" },
-          { itemName: "Ֆոկաչինո բուրատայով", price: "4900֏" },
-          { itemName: "Սաղմոնի ռոլլ", price: "4900֏" },
+          // { itemName: "Ֆոկաչինո բուրատայով", price: "4900֏" },
+          // { itemName: "Սաղմոնի ռոլլ", price: "4900֏" },
           { itemName: "Բրուսկետա ավոկադոյով", price: "3300֏" },
           { itemName: "Բրուսկետա լոլիկով", price: "2900֏" },
           { itemName: "Բրուսկետա ծովախեցգետիններով", price: "3700֏" },
@@ -158,7 +158,7 @@ export const am = {
           { itemName: "Լայմ", price: "800֏" },
           { itemName: "Լիմոն", price: "700֏" },
           { itemName: "Լիմոնի Եվ Գազարի Սեթ", price: "900֏" },
-          { itemName: "Կանապե միքս", price: "3900֏" },
+          // { itemName: "Կանապե միքս", price: "3900֏" },
           { itemName: "Հացի զամբյուղ", price: "900֏" }
         ]
       },
@@ -177,8 +177,8 @@ export const am = {
       {
         mainTitle: "Տաք նախուտեստներ",
         items: [
-          { itemName: "Դաբլ Չիզբուրգեր", price: "4900֏" },
-          { itemName: "Համբուրգեր", price: "3900֏" },
+          // { itemName: "Դաբլ Չիզբուրգեր", price: "4900֏" },
+          // { itemName: "Համբուրգեր", price: "3900֏" },
           // { itemName: "Չիքենբուրգեր", price: "3500֏" },
           { itemName: "Քլաբ սենդվիչ սաղմոնով", price: "5900֏" },
           { itemName: "Քլաբ Սենդվիչ Հավով", price: "2900֏" },
@@ -193,7 +193,6 @@ export const am = {
           { itemName: "Պտիտի սաղմոնով և սերուցքով", price: "5900֏" },
           { itemName: "Ֆունչոզա ծովախեցգետնով", price: "5900֏" },
           { itemName: "Կարբոնարա ֆետուչինիով", price: "4900֏" },
-          { itemName: "Քլաբ սենդվիչ սաղմոնով", price: "5900֏" },
           { itemName: "Ալֆրեդո ֆետուչինիով", price: "3900֏" },
           { itemName: "Արաբիատա պենեով", price: "3900֏" }
         ]
@@ -212,7 +211,7 @@ export const am = {
         items: [
           { itemName: "Սաղմոնի սթեյք", price: "13900֏" },
           { itemName: "Սթեյք մեդալյոն դեմիգլաս սոուսով", price: "14900֏" },
-          { itemName: "Արգենտինական սթեյք բարբեքյու սոուսով", price: "12900֏" },
+          // { itemName: "Արգենտինական սթեյք բարբեքյու սոուսով", price: "12900֏" },
           { itemName: "Հավի Թևիկներ ֆիրմային Սոուսով", price: "3500֏" },
           { itemName: "Հավի սթեյք սերուցքով", price: "6900֏" },
           { itemName: "Խորովածի սեթ", price: "29900֏" },
@@ -253,9 +252,9 @@ export const am = {
           { itemName: "Մրգի Տեսականի(մեծ)", price: "14900֏" },
           { itemName: "Մրգի Տեսականի(փոքր)", price: "7900֏" },
           // { itemName: "Էկզոտիկ մրգեր", price: "25900֏" },
-          { itemName: "Տիրամիսու", price: "3500֏" },
-          { itemName: "Չիզքեյք դասական", price: "2900֏" },
-          { itemName: "Բրաունի", price: "3700֏" },
+          // { itemName: "Տիրամիսու", price: "3500֏" },
+          // { itemName: "Չիզքեյք դասական", price: "2900֏" },
+          // { itemName: "Բրաունի", price: "3700֏" },
           { itemName: "Դառը Շոկոլադ", price: "2900֏" },
           { itemName: "Դան դեսերտ", price: "800֏" },
           { itemName: "Պաղպաղակ", price: "1900֏" },

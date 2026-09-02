@@ -50,7 +50,7 @@ export default function MoleculesHeader({
         </AtomParagraph>
       </div>
       <div ref={moleculesLinks} className="link_box flex flex-col gap-3 justify-center items-center pt-[33px]">
-        {[`Music Hall ${wordMenu}`, `Legend cafe ${wordMenu}`].map((el, elIndex) => (
+        {[`Music Hall ${wordMenu}`].map((el, elIndex) => (
           <AtomLinks
             key={elIndex}
             value="NextLink"

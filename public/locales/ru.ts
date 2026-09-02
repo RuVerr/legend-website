@@ -168,8 +168,8 @@ export const ru = {
           { itemName: "Овощное крудите", price: "5900֏" },
           { itemName: "Ассорти маринованных овощей", price: "3900֏" },
           { itemName: "Европейское рыбное ассорти", price: "10900֏" },
-          { itemName: "Фокаччино с бурратой", price: "4900֏" },
-          { itemName: "Ролл с лососем", price: "4900֏" },
+          // { itemName: "Фокаччино с бурратой", price: "4900֏" },
+          // { itemName: "Ролл с лососем", price: "4900֏" },
           { itemName: "Брускетта с авокадо", price: "3300֏" },
           { itemName: "Брускетта с помидорами", price: "2900֏" },
           { itemName: "Брускетта с креветками", price: "3700֏" },
@@ -178,7 +178,7 @@ export const ru = {
           { itemName: "Лайм", price: "800֏" },
           { itemName: "Лимон", price: "700֏" },
           { itemName: "Сет из лимона и моркови", price: "900֏" },
-          { itemName: "Ассорти канапе", price: "3900֏" },
+          // { itemName: "Ассорти канапе", price: "3900֏" },
           { itemName: "Хлебная корзина", price: "900֏" }
         ]
       },
@@ -197,8 +197,8 @@ export const ru = {
       {
         mainTitle: "Горячие закуски",
         items: [
-          { itemName: "Двойной чизбургер", price: "4900֏" },
-          { itemName: "Гамбургер", price: "3900֏" },
+          // { itemName: "Двойной чизбургер", price: "4900֏" },
+          // { itemName: "Гамбургер", price: "3900֏" },
           // { itemName: "Чикенбургер", price: "3500֏" },
           { itemName: "Клаб-сэндвич с лососем", price: "5900֏" },
           { itemName: "Клаб-сэндвич с курицей", price: "2900֏" },
@@ -232,7 +232,7 @@ export const ru = {
         items: [
           { itemName: "Стейк из лосося", price: "13900֏" },
           { itemName: "Стейк-медальон с соусом демиглас", price: "14900֏" },
-          { itemName: "Аргентинский стейк с соусом барбекю", price: "12900֏" },
+          // { itemName: "Аргентинский стейк с соусом барбекю", price: "12900֏" },
           { itemName: "Куриные крылышки с фирменным соусом", price: "3500֏" },
           { itemName: "Куриный стейк в сливочном соусе", price: "6900֏" },
           { itemName: "Ассорти шашлыков", price: "29900֏" },
@@ -271,9 +271,9 @@ export const ru = {
           { itemName: "Фруктовое ассорти — большое", price: "14900֏" },
           { itemName: "Фруктовое ассорти — малое", price: "7900֏" },
           // { itemName: "Ассорти экзотических фруктов", price: "25900֏" },
-          { itemName: "Тирамису", price: "3500֏" },
-          { itemName: "Классический чизкейк", price: "2900֏" },
-          { itemName: "Брауни", price: "3700֏" },
+          // { itemName: "Тирамису", price: "3500֏" },
+          // { itemName: "Классический чизкейк", price: "2900֏" },
+          // { itemName: "Брауни", price: "3700֏" },
           { itemName: "Тёмный шоколад", price: "2900֏" },
           { itemName: "Dan Dessert", price: "800֏" },
           { itemName: "Мороженое", price: "1900֏" },
