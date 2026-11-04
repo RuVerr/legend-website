@@ -224,7 +224,7 @@ export const ru = {
           { itemName: "Пепперони", price: "3900֏" },
           { itemName: "Маргарита", price: "3900֏" },
           { itemName: "Четыре сыра", price: "4900֏" },
-          { itemName: "Экзотика", price: "5400֏" }
+          //{ itemName: "Экзотика", price: "5400֏" }
         ]
       },
       {
@@ -275,7 +275,7 @@ export const ru = {
           // { itemName: "Классический чизкейк", price: "2900֏" },
           // { itemName: "Брауни", price: "3700֏" },
           { itemName: "Тёмный шоколад", price: "2900֏" },
-          { itemName: "Dan Dessert", price: "800֏" },
+          //{ itemName: "Dan Dessert", price: "800֏" },
           { itemName: "Мороженое", price: "1900֏" },
           { itemName: "Ореховый Party-сет", price: "2900֏" },
           { itemName: "Клубника", price: "2800֏" },
