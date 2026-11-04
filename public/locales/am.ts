@@ -203,7 +203,7 @@ export const am = {
           { itemName: "Պեպպերոնի", price: "3900֏" },
           { itemName: "Մարգարիտա", price: "3900֏" },
           { itemName: "4 պանիր", price: "4900֏" },
-          { itemName: "Էկզոտիկա", price: "5400֏" }
+          //{ itemName: "Էկզոտիկա", price: "5400֏" }
         ]
       },
       {
@@ -256,7 +256,7 @@ export const am = {
           // { itemName: "Չիզքեյք դասական", price: "2900֏" },
           // { itemName: "Բրաունի", price: "3700֏" },
           { itemName: "Դառը Շոկոլադ", price: "2900֏" },
-          { itemName: "Դան դեսերտ", price: "800֏" },
+          //{ itemName: "Դան դեսերտ", price: "800֏" },
           { itemName: "Պաղպաղակ", price: "1900֏" },
           { itemName: "Չարազ փառթի", price: "2900֏" },
           { itemName: "Ելակ", price: "2800֏" },
